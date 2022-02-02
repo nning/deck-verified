@@ -30,7 +30,7 @@ type QueryResponse struct {
 type Entry struct {
 	Status      string
 	FirstSeen   time.Time
-	LastUpdated int
+	LastUpdated time.Time
 }
 
 type Store map[string]*Entry
@@ -140,11 +140,13 @@ func main() {
 
 	for _, response := range responses {
 		for _, hit := range response.Results[0].Hits {
+			lastUpdated := time.Unix(int64(hit.LastUpdated), 0)
+
 			if store[hit.Name] != nil {
-				if hit.LastUpdated > store[hit.Name].LastUpdated {
+				if lastUpdated.After(store[hit.Name].LastUpdated) {
 					status := getVerificationStatus(hit.OsList)
 
-					store[hit.Name].LastUpdated = hit.LastUpdated
+					store[hit.Name].LastUpdated = lastUpdated
 					store[hit.Name].Status = status
 
 					t.AddLine("Updated", hit.Name, status)
@@ -155,7 +157,7 @@ func main() {
 			}
 
 			status := getVerificationStatus(hit.OsList)
-			store[hit.Name] = &Entry{status, time.Now(), hit.LastUpdated}
+			store[hit.Name] = &Entry{status, time.Now(), lastUpdated}
 			t.AddLine("New", hit.Name, status)
 			newCount = newCount + 1
 		}
