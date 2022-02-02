@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bufio"
 	"bytes"
 	"encoding/json"
 	"errors"
@@ -14,6 +15,7 @@ import (
 
 	"github.com/cheynewallace/tabby"
 	"github.com/fxamacker/cbor"
+	"github.com/ulikunitz/xz"
 )
 
 type QueryResponse struct {
@@ -40,7 +42,7 @@ type Store map[string]*Entry
 
 const urlPath = "data/url"
 const requestPath = "data/request.json"
-const storePath = "data/store.cbor"
+const storePath = "data/store.cbor.xz"
 
 var debug bool
 var store Store
@@ -121,10 +123,20 @@ func getStore() Store {
 	store := make(Store)
 
 	if _, err := os.Stat(storePath); !errors.Is(err, os.ErrNotExist) {
-		in, err := os.ReadFile(storePath)
+		f, err := os.Open(storePath)
+		panicOnError(err)
+		defer f.Close()
+
+		r, err := xz.NewReader(bufio.NewReader(f))
 		panicOnError(err)
 
-		err = cbor.Unmarshal(in, &store)
+		buf := make([]byte, 0)
+		w := bytes.NewBuffer(buf)
+
+		_, err = io.Copy(w, r)
+		panicOnError(err)
+
+		err = cbor.Unmarshal(w.Bytes(), &store)
 		panicOnError(err)
 	}
 
@@ -171,7 +183,15 @@ func cmdUpdate() {
 	out, err := cbor.Marshal(store, cbor.CanonicalEncOptions())
 	panicOnError(err)
 
-	err = os.WriteFile(storePath, out, 0600)
+	fout, err := os.Create(storePath)
+	panicOnError(err)
+	defer fout.Close()
+
+	w, err := xz.NewWriter(fout)
+	panicOnError(err)
+	defer w.Close()
+
+	io.Copy(w, bytes.NewBuffer(out))
 	panicOnError(err)
 
 	fmt.Printf("Total: %v, New: %v, Updated: %v\n", responses[0].Results[0].HitCount, newCount, updatedCount)
