@@ -3,10 +3,14 @@ package main
 import (
 	"bytes"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"net/http"
 	"os"
+	"strconv"
+	"strings"
+	"time"
 )
 
 type QueryResponse struct {
@@ -15,47 +19,126 @@ type QueryResponse struct {
 			Name   string   `json:"name"`
 			OsList []string `json:"oslist"`
 		} `json:"hits"`
+		HitCount  int `json:"nbHits"`
+		PageCount int `json:"nbPages"`
 	} `json:"results"`
 }
 
-func main() {
-	u, err := os.ReadFile("data/url")
+type Entry struct {
+	Status    string
+	FirstSeen time.Time
+}
+
+type Store map[string]*Entry
+
+const urlPath = "data/url"
+const requestPath = "data/request.json"
+const storePath = "data/store.json"
+
+func panicOnError(err error) {
 	if err != nil {
 		panic(err)
 	}
+}
 
-	b0, err := os.ReadFile("data/body.json")
-	if err != nil {
-		panic(err)
-	}
+func requestPage(url string, page int, requestTemplate []byte) QueryResponse {
+	strPage := strconv.FormatInt(int64(page), 10)
+	b1 := bytes.Replace(requestTemplate, []byte("${page}"), []byte(strPage), 1)
+	b2 := bytes.NewReader(b1)
 
-	b1 := bytes.NewReader(b0)
-	client := &http.Client{}
+	req, err := http.NewRequest("POST", url, b2)
+	panicOnError(err)
 
-	req, err := http.NewRequest("POST", string(u), b1)
 	req.Header.Add("Content-Type", "application/x-www-form-urlencoded")
 	req.Header.Add("Referer", "https://steamdb.info/")
-	// req.Header.Add("User-Agent", "Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:96.0) Gecko/20100101 Firefox/96.0")
-	// req.Header.Add("Accept", "*/*")
-	// req.Header.Add("Origin", "https://steamdb.info/")
-	// req.Header.Add("Sec-Fetch-Dest", "empty")
-	// req.Header.Add("Sec-Fetch-Mode", "cors")
-	// req.Header.Add("Sec-Fetch-Site", "cross-site")
-	// req.Header.Add("Pragma", "no-cache")
-	// req.Header.Add("Cache-Control", "no-cache")
 
+	client := &http.Client{}
 	res, err := client.Do(req)
-	if err != nil {
-		panic(err)
-	}
+	panicOnError(err)
 
 	defer res.Body.Close()
 	body, err := io.ReadAll(res.Body)
+	panicOnError(err)
 
-	os.WriteFile("data/response.json", body, 0600)
+	var r QueryResponse
+	err = json.Unmarshal(body, &r)
+	panicOnError(err)
 
-	var results QueryResponse
-	json.Unmarshal(body, results)
+	return r
+}
 
-	fmt.Println(results)
+func searchSteamDB() []QueryResponse {
+	u, err := os.ReadFile(urlPath)
+	panicOnError(err)
+
+	b0, err := os.ReadFile(requestPath)
+	panicOnError(err)
+
+	responses := make([]QueryResponse, 0)
+	pages := 1
+
+	for page := 0; page < pages; page++ {
+		r := requestPage(string(u), page, b0)
+
+		if pages == 1 {
+			pages = r.Results[0].PageCount
+		}
+
+		responses = append(responses, r)
+	}
+
+	return responses
+}
+
+func getVerificationStatus(oslist []string) string {
+	x := "Steam Deck "
+
+	for _, s := range oslist {
+		if strings.HasPrefix(s, x) {
+			return strings.Replace(s, x, "", 1)
+		}
+	}
+
+	return ""
+}
+
+func getStore() Store {
+	store := make(Store)
+
+	if _, err := os.Stat(storePath); !errors.Is(err, os.ErrNotExist) {
+		in, err := os.ReadFile(storePath)
+		panicOnError(err)
+
+		err = json.Unmarshal(in, &store)
+		panicOnError(err)
+	}
+
+	return store
+}
+
+func main() {
+	responses := searchSteamDB()
+	store := getStore()
+	i := 0
+
+	for _, response := range responses {
+		for _, hit := range response.Results[0].Hits {
+			if store[hit.Name] != nil {
+				continue
+			}
+
+			status := getVerificationStatus(hit.OsList)
+			store[hit.Name] = &Entry{status, time.Now()}
+			fmt.Printf("%v: %v\n", hit.Name, status)
+			i = i + 1
+		}
+	}
+
+	out, err := json.MarshalIndent(store, "", "   ")
+	panicOnError(err)
+
+	err = os.WriteFile(storePath, out, 0600)
+	panicOnError(err)
+
+	fmt.Printf("\nTotal Hits: %v, New Games: %v\n", responses[0].Results[0].HitCount, i)
 }
