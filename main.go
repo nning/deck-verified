@@ -187,6 +187,18 @@ func cmdSearch(term string) {
 	t.Print()
 }
 
+func cmdList(status string) {
+	t := tabby.New()
+
+	for name, data := range store {
+		if status == "" || status == strings.ToLower(data.Status) {
+			t.AddLine(name, data.Status, data.LastUpdated)
+		}
+	}
+
+	t.Print()
+}
+
 func main() {
 	debug = os.Getenv("DEBUG") != ""
 	store = getStore()
@@ -198,5 +210,14 @@ func main() {
 	if len(os.Args) > 2 && os.Args[1] == "search" {
 		term := strings.Join(os.Args[2:], " ")
 		cmdSearch(term)
+	}
+
+	if len(os.Args) > 1 && os.Args[1] == "list" {
+		status := ""
+		if len(os.Args) > 2 {
+			status = os.Args[2]
+		}
+
+		cmdList(status)
 	}
 }
