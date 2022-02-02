@@ -7,4 +7,4 @@ $(BIN_NAME): $(SOURCES)
 	go build .
 
 clean:
-	rm -f $(BIN_NAME)
+	rm -f $(BIN_NAME) data/response*.json

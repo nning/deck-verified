@@ -11,13 +11,16 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/cheynewallace/tabby"
 )
 
 type QueryResponse struct {
 	Results []struct {
 		Hits []struct {
-			Name   string   `json:"name"`
-			OsList []string `json:"oslist"`
+			Name        string   `json:"name"`
+			OsList      []string `json:"oslist"`
+			LastUpdated int      `json:"lastUpdated"`
 		} `json:"hits"`
 		HitCount  int `json:"nbHits"`
 		PageCount int `json:"nbPages"`
@@ -25,8 +28,9 @@ type QueryResponse struct {
 }
 
 type Entry struct {
-	Status    string
-	FirstSeen time.Time
+	Status      string
+	FirstSeen   time.Time
+	LastUpdated int
 }
 
 type Store map[string]*Entry
@@ -34,6 +38,8 @@ type Store map[string]*Entry
 const urlPath = "data/url"
 const requestPath = "data/request.json"
 const storePath = "data/store.json"
+
+var debug bool
 
 func panicOnError(err error) {
 	if err != nil {
@@ -59,6 +65,11 @@ func requestPage(url string, page int, requestTemplate []byte) QueryResponse {
 	defer res.Body.Close()
 	body, err := io.ReadAll(res.Body)
 	panicOnError(err)
+
+	if debug {
+		err = os.WriteFile("data/response"+strconv.FormatInt(int64(page), 10)+".json", body, 0600)
+		panicOnError(err)
+	}
 
 	var r QueryResponse
 	err = json.Unmarshal(body, &r)
@@ -117,21 +128,42 @@ func getStore() Store {
 }
 
 func main() {
+	debug = os.Getenv("DEBUG") != ""
+
+	t := tabby.New()
+
 	responses := searchSteamDB()
 	store := getStore()
-	i := 0
+
+	newCount := 0
+	updatedCount := 0
 
 	for _, response := range responses {
 		for _, hit := range response.Results[0].Hits {
 			if store[hit.Name] != nil {
+				if hit.LastUpdated > store[hit.Name].LastUpdated {
+					status := getVerificationStatus(hit.OsList)
+
+					store[hit.Name].LastUpdated = hit.LastUpdated
+					store[hit.Name].Status = status
+
+					t.AddLine("Updated", hit.Name, status)
+					updatedCount = updatedCount + 1
+				}
+
 				continue
 			}
 
 			status := getVerificationStatus(hit.OsList)
-			store[hit.Name] = &Entry{status, time.Now()}
-			fmt.Printf("%v: %v\n", hit.Name, status)
-			i = i + 1
+			store[hit.Name] = &Entry{status, time.Now(), hit.LastUpdated}
+			t.AddLine("New", hit.Name, status)
+			newCount = newCount + 1
 		}
+	}
+
+	t.Print()
+	if newCount+updatedCount > 0 {
+		fmt.Println()
 	}
 
 	out, err := json.MarshalIndent(store, "", "   ")
@@ -140,5 +172,5 @@ func main() {
 	err = os.WriteFile(storePath, out, 0600)
 	panicOnError(err)
 
-	fmt.Printf("\nTotal Hits: %v, New Games: %v\n", responses[0].Results[0].HitCount, i)
+	fmt.Printf("Total: %v, New: %v, Updated: %v\n", responses[0].Results[0].HitCount, newCount, updatedCount)
 }
