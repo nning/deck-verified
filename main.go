@@ -40,6 +40,7 @@ const requestPath = "data/request.json"
 const storePath = "data/store.json"
 
 var debug bool
+var store Store
 
 func panicOnError(err error) {
 	if err != nil {
@@ -127,13 +128,10 @@ func getStore() Store {
 	return store
 }
 
-func main() {
-	debug = os.Getenv("DEBUG") != ""
-
+func cmdUpdate() {
 	t := tabby.New()
 
 	responses := searchSteamDB()
-	store := getStore()
 
 	newCount := 0
 	updatedCount := 0
@@ -175,4 +173,30 @@ func main() {
 	panicOnError(err)
 
 	fmt.Printf("Total: %v, New: %v, Updated: %v\n", responses[0].Results[0].HitCount, newCount, updatedCount)
+}
+
+func cmdSearch(term string) {
+	t := tabby.New()
+
+	for name, data := range store {
+		if strings.Contains(strings.ToLower(name), term) {
+			t.AddLine(name, data.Status, data.LastUpdated)
+		}
+	}
+
+	t.Print()
+}
+
+func main() {
+	debug = os.Getenv("DEBUG") != ""
+	store = getStore()
+
+	if len(os.Args) == 1 || len(os.Args) > 1 && os.Args[1] == "update" {
+		cmdUpdate()
+	}
+
+	if len(os.Args) > 2 && os.Args[1] == "search" {
+		term := strings.Join(os.Args[2:], " ")
+		cmdSearch(term)
+	}
 }
