@@ -13,6 +13,7 @@ import (
 	"time"
 
 	"github.com/cheynewallace/tabby"
+	"github.com/fxamacker/cbor"
 )
 
 type QueryResponse struct {
@@ -39,7 +40,7 @@ type Store map[string]*Entry
 
 const urlPath = "data/url"
 const requestPath = "data/request.json"
-const storePath = "data/store.json"
+const storePath = "data/store.cbor"
 
 var debug bool
 var store Store
@@ -123,7 +124,7 @@ func getStore() Store {
 		in, err := os.ReadFile(storePath)
 		panicOnError(err)
 
-		err = json.Unmarshal(in, &store)
+		err = cbor.Unmarshal(in, &store)
 		panicOnError(err)
 	}
 
@@ -167,7 +168,7 @@ func cmdUpdate() {
 		fmt.Println()
 	}
 
-	out, err := json.MarshalIndent(store, "", "   ")
+	out, err := cbor.Marshal(store, cbor.CanonicalEncOptions())
 	panicOnError(err)
 
 	err = os.WriteFile(storePath, out, 0600)
