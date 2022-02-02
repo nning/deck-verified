@@ -41,8 +41,8 @@ type Entry struct {
 type Store map[string]*Entry
 
 const urlPath = "data/url"
-const requestPath = "data/request.json"
-const storePath = "data/store.cbor.xz"
+const requestPath = "data/request"
+const storePath = "data/store"
 
 var debug bool
 var store Store
@@ -84,12 +84,39 @@ func requestPage(url string, page int, requestTemplate []byte) QueryResponse {
 	return r
 }
 
-func searchSteamDB() []QueryResponse {
-	u, err := os.ReadFile(urlPath)
+func read(path string) []byte {
+	f, err := os.Open(path)
+	panicOnError(err)
+	defer f.Close()
+
+	r, err := xz.NewReader(bufio.NewReader(f))
 	panicOnError(err)
 
-	b0, err := os.ReadFile(requestPath)
+	buf := make([]byte, 0)
+	w := bytes.NewBuffer(buf)
+
+	_, err = io.Copy(w, r)
 	panicOnError(err)
+
+	return w.Bytes()
+}
+
+func write(path string, out []byte) {
+	f, err := os.Create(path)
+	panicOnError(err)
+	defer f.Close()
+
+	w, err := xz.NewWriter(f)
+	panicOnError(err)
+	defer w.Close()
+
+	io.Copy(w, bytes.NewBuffer(out))
+	panicOnError(err)
+}
+
+func searchSteamDB() []QueryResponse {
+	u := read(urlPath)
+	b0 := read(requestPath)
 
 	responses := make([]QueryResponse, 0)
 	pages := 1
@@ -123,20 +150,8 @@ func getStore() Store {
 	store := make(Store)
 
 	if _, err := os.Stat(storePath); !errors.Is(err, os.ErrNotExist) {
-		f, err := os.Open(storePath)
-		panicOnError(err)
-		defer f.Close()
-
-		r, err := xz.NewReader(bufio.NewReader(f))
-		panicOnError(err)
-
-		buf := make([]byte, 0)
-		w := bytes.NewBuffer(buf)
-
-		_, err = io.Copy(w, r)
-		panicOnError(err)
-
-		err = cbor.Unmarshal(w.Bytes(), &store)
+		x := read(storePath)
+		err = cbor.Unmarshal(x, &store)
 		panicOnError(err)
 	}
 
@@ -183,16 +198,7 @@ func cmdUpdate() {
 	out, err := cbor.Marshal(store, cbor.CanonicalEncOptions())
 	panicOnError(err)
 
-	fout, err := os.Create(storePath)
-	panicOnError(err)
-	defer fout.Close()
-
-	w, err := xz.NewWriter(fout)
-	panicOnError(err)
-	defer w.Close()
-
-	io.Copy(w, bytes.NewBuffer(out))
-	panicOnError(err)
+	write(storePath, out)
 
 	fmt.Printf("Total: %v, New: %v, Updated: %v\n", responses[0].Results[0].HitCount, newCount, updatedCount)
 }
