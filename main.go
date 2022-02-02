@@ -21,6 +21,7 @@ type QueryResponse struct {
 			Name        string   `json:"name"`
 			OsList      []string `json:"oslist"`
 			LastUpdated int      `json:"lastUpdated"`
+			AppID       string   `json:"objectID"`
 		} `json:"hits"`
 		HitCount  int `json:"nbHits"`
 		PageCount int `json:"nbPages"`
@@ -31,6 +32,7 @@ type Entry struct {
 	Status      string
 	FirstSeen   time.Time
 	LastUpdated time.Time
+	AppID       string
 }
 
 type Store map[string]*Entry
@@ -155,7 +157,7 @@ func cmdUpdate() {
 			}
 
 			status := getVerificationStatus(hit.OsList)
-			store[hit.Name] = &Entry{status, time.Now(), lastUpdated}
+			store[hit.Name] = &Entry{status, time.Now(), lastUpdated, hit.AppID}
 			t.AddLine("New", hit.Name, status)
 			newCount = newCount + 1
 		}
