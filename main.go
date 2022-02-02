@@ -143,9 +143,8 @@ func cmdUpdate() {
 			lastUpdated := time.Unix(int64(hit.LastUpdated), 0)
 
 			if store[hit.Name] != nil {
-				if lastUpdated.After(store[hit.Name].LastUpdated) {
-					status := getVerificationStatus(hit.OsList)
-
+				status := getVerificationStatus(hit.OsList)
+				if lastUpdated.After(store[hit.Name].LastUpdated) || store[hit.Name].Status != status {
 					store[hit.Name].LastUpdated = lastUpdated
 					store[hit.Name].Status = status
 
