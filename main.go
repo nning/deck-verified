@@ -1,14 +1,15 @@
 package main
 
 import (
-	"bufio"
 	"bytes"
+	_ "embed"
 	"encoding/json"
 	"errors"
 	"fmt"
 	"io"
 	"net/http"
 	"os"
+	"path"
 	"strconv"
 	"strings"
 	"time"
@@ -40,12 +41,18 @@ type Entry struct {
 
 type Store map[string]*Entry
 
-const urlPath = "data/url"
-const requestPath = "data/request"
-const storePath = "data/store"
+//go:embed data/url
+var urlData []byte
+
+//go:embed data/request
+var requestData []byte
 
 var debug bool
 var store Store
+
+var home, _ = os.UserHomeDir()
+var storeDir = path.Join(home, ".cache", "deck-verified")
+var storePath = path.Join(storeDir, "store")
 
 func panicOnError(err error) {
 	if err != nil {
@@ -84,12 +91,15 @@ func requestPage(url string, page int, requestTemplate []byte) QueryResponse {
 	return r
 }
 
-func read(path string) []byte {
+func readFile(path string) []byte {
 	f, err := os.Open(path)
 	panicOnError(err)
-	defer f.Close()
 
-	r, err := xz.NewReader(bufio.NewReader(f))
+	return read(f)
+}
+
+func read(in io.Reader) []byte {
+	r, err := xz.NewReader(in)
 	panicOnError(err)
 
 	buf := make([]byte, 0)
@@ -115,8 +125,8 @@ func write(path string, out []byte) {
 }
 
 func searchSteamDB() []QueryResponse {
-	u := read(urlPath)
-	b0 := read(requestPath)
+	u := read(bytes.NewReader(urlData))
+	b0 := read(bytes.NewReader(requestData))
 
 	responses := make([]QueryResponse, 0)
 	pages := 1
@@ -150,7 +160,7 @@ func getStore() Store {
 	store := make(Store)
 
 	if _, err := os.Stat(storePath); !errors.Is(err, os.ErrNotExist) {
-		x := read(storePath)
+		x := readFile(storePath)
 		err = cbor.Unmarshal(x, &store)
 		panicOnError(err)
 	}
@@ -196,6 +206,9 @@ func cmdUpdate() {
 	}
 
 	out, err := cbor.Marshal(store, cbor.CanonicalEncOptions())
+	panicOnError(err)
+
+	err = os.MkdirAll(storeDir, 0700)
 	panicOnError(err)
 
 	write(storePath, out)
