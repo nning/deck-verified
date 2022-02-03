@@ -48,6 +48,7 @@ var urlData []byte
 var requestData []byte
 
 var debug bool
+var quiet bool
 var store Store
 
 var home, _ = os.UserHomeDir()
@@ -213,7 +214,9 @@ func cmdUpdate() {
 
 	write(storePath, out)
 
-	fmt.Printf("Total: %v, New: %v, Updated: %v\n", responses[0].Results[0].HitCount, newCount, updatedCount)
+	if !quiet || quiet && (newCount > 0 || updatedCount > 0) {
+		fmt.Printf("Total: %v, New: %v, Updated: %v\n", responses[0].Results[0].HitCount, newCount, updatedCount)
+	}
 }
 
 func cmdSearch(term string) {
@@ -242,6 +245,8 @@ func cmdList(status string) {
 
 func main() {
 	debug = os.Getenv("DEBUG") != ""
+	quiet = os.Getenv("QUIET") != ""
+
 	store = getStore()
 
 	if len(os.Args) == 1 || len(os.Args) > 1 && os.Args[1] == "update" {

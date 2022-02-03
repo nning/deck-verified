@@ -7,7 +7,7 @@ PREFIX = ~/.local/bin
 build: $(BIN_NAME)
 
 $(BIN_NAME): $(SOURCES)
-	go build .
+	CGO_ENABLED=0 go build .
 
 run: $(BIN_NAME)
 	./$(BIN_NAME)
