@@ -32,3 +32,13 @@ List can be filtered by `unsupported`, `playable`, and `verified`.
     Bayonetta                                           Verified  2020-11-27 20:34:00 +0100 CET
     Business Tour - Board Game with Online Multiplayer  Verified  2021-11-23 10:16:04 +0100 CET
 
+## Setup
+
+### Run in cron with mail notification
+
+    MAILTO=user@example.com
+    */15 *  * * *  CRON=1 ~/deck-verified
+
+### Run in cron with feed generation
+
+    */15 *  * * *  /bin/bash -c 'QUIET=1 ~/deck-verified && ~/deck-verified feed > ~/public/deck-verified.xml'
