@@ -278,7 +278,7 @@ func generateFeed(n int) *feeds.Feed {
 	feed := &feeds.Feed{
 		Title:   "Steam Deck Verified",
 		Created: time.Now(),
-		Link:    &feeds.Link{Href: "http://nning.io/deck-verified"},
+		Link:    &feeds.Link{Href: "http://github.com/nning/deck-verified"},
 	}
 
 	for _, entry := range entries[0:n] {
