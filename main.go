@@ -7,15 +7,18 @@ import (
 	"errors"
 	"fmt"
 	"io"
+	"log"
 	"net/http"
 	"os"
 	"path"
+	"sort"
 	"strconv"
 	"strings"
 	"time"
 
 	"github.com/cheynewallace/tabby"
 	"github.com/fxamacker/cbor"
+	"github.com/gorilla/feeds"
 	"github.com/ulikunitz/xz"
 )
 
@@ -33,10 +36,12 @@ type QueryResponse struct {
 }
 
 type Entry struct {
-	Status      string
-	FirstSeen   time.Time
-	LastUpdated time.Time
-	AppID       string
+	Name               string
+	Status             string
+	FirstSeen          time.Time
+	LastUpdatedSteamDB time.Time
+	LastUpdatedHere    time.Time
+	AppID              string
 }
 
 type Store map[string]*Entry
@@ -183,9 +188,10 @@ func cmdUpdate() {
 
 			if store[hit.Name] != nil {
 				status := getVerificationStatus(hit.OsList)
-				if lastUpdated.After(store[hit.Name].LastUpdated) || store[hit.Name].Status != status {
-					store[hit.Name].LastUpdated = lastUpdated
+				if lastUpdated.After(store[hit.Name].LastUpdatedSteamDB) || store[hit.Name].Status != status {
 					store[hit.Name].Status = status
+					store[hit.Name].LastUpdatedSteamDB = lastUpdated
+					store[hit.Name].LastUpdatedHere = time.Now()
 
 					t.AddLine("Updated", hit.Name, status)
 					updatedCount = updatedCount + 1
@@ -195,7 +201,14 @@ func cmdUpdate() {
 			}
 
 			status := getVerificationStatus(hit.OsList)
-			store[hit.Name] = &Entry{status, time.Now(), lastUpdated, hit.AppID}
+			store[hit.Name] = &Entry{
+				Name:               hit.Name,
+				Status:             status,
+				FirstSeen:          time.Now(),
+				LastUpdatedSteamDB: lastUpdated,
+				LastUpdatedHere:    time.Now(),
+				AppID:              hit.AppID,
+			}
 			t.AddLine("New", hit.Name, status)
 			newCount = newCount + 1
 		}
@@ -224,7 +237,7 @@ func cmdSearch(term string) {
 
 	for name, data := range store {
 		if strings.Contains(strings.ToLower(name), term) {
-			t.AddLine(name, data.Status, data.LastUpdated)
+			t.AddLine(name, data.Status, data.LastUpdatedSteamDB)
 		}
 	}
 
@@ -236,19 +249,80 @@ func cmdList(status string) {
 
 	for name, data := range store {
 		if status == "" || status == strings.ToLower(data.Status) {
-			t.AddLine(name, data.Status, data.LastUpdated)
+			t.AddLine(name, data.Status, data.LastUpdatedSteamDB)
 		}
 	}
 
 	t.Print()
 }
 
-func main() {
+func generateFeed(n int) *feeds.Feed {
+	l := len(store)
+	if n == -1 {
+		n = l
+	}
+
+	entries := make([]*Entry, 0, l)
+
+	for _, entry := range store {
+		entries = append(entries, entry)
+	}
+
+	sort.Slice(entries, func(i, j int) bool {
+		return entries[i].LastUpdatedHere.After(entries[j].LastUpdatedHere)
+	})
+
+	feed := &feeds.Feed{
+		Title:   "Steam Deck Verified",
+		Created: time.Now(),
+		Link:    &feeds.Link{Href: "http://nning.io/deck-verified"},
+	}
+
+	for _, entry := range entries[0:n] {
+		feed.Items = append(feed.Items, &feeds.Item{
+			Title:   "[" + entry.Status + "] " + entry.Name,
+			Link:    &feeds.Link{Href: "https://steamdb.info/app/" + entry.AppID + "/info/"},
+			Created: entry.LastUpdatedHere,
+		})
+	}
+
+	return feed
+}
+
+func cmdFeed() {
+	feed := generateFeed(-1)
+	content, err := feed.ToAtom()
+	panicOnError(err)
+
+	fmt.Println(content)
+}
+
+func cmdFeedServe(args ...string) {
+	http.HandleFunc("/feed.xml", func(w http.ResponseWriter, r *http.Request) {
+		store = getStore()
+		feed := generateFeed(15)
+		content, err := feed.ToAtom()
+		panicOnError(err)
+
+		fmt.Fprintf(w, content)
+	})
+
+	port := "8080"
+	if len(args) > 0 {
+		port = args[0]
+	}
+
+	log.Fatal(http.ListenAndServe(":"+port, nil))
+}
+
+func init() {
 	debug = os.Getenv("DEBUG") != ""
 	quiet = os.Getenv("QUIET") != ""
 
 	store = getStore()
+}
 
+func main() {
 	if len(os.Args) == 1 || len(os.Args) > 1 && os.Args[1] == "update" {
 		cmdUpdate()
 	}
@@ -265,5 +339,13 @@ func main() {
 		}
 
 		cmdList(status)
+	}
+
+	if len(os.Args) > 1 && os.Args[1] == "feed" {
+		if len(os.Args) > 2 && os.Args[2] == "serve" {
+			cmdFeedServe(os.Args[3:]...)
+		} else {
+			cmdFeed()
+		}
 	}
 }
