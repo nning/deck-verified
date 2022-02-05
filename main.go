@@ -34,6 +34,8 @@ type QueryResponse struct {
 		HitCount  int `json:"nbHits"`
 		PageCount int `json:"nbPages"`
 	} `json:"results"`
+	Message string `json:"message"`
+	Status  int    `json:"status"`
 }
 
 type Entry struct {
@@ -146,6 +148,10 @@ func searchSteamDB() []QueryResponse {
 		r := requestPage(string(u), page, b0)
 
 		if pages == 1 {
+			if r.Status > 0 {
+				panicOnError(errors.New(r.Message + " (" + strconv.FormatInt(int64(r.Status), 10) + ")"))
+			}
+
 			pages = r.Results[0].PageCount
 		}
 
