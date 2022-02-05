@@ -52,6 +52,7 @@ var urlData []byte
 //go:embed data/request
 var requestData []byte
 
+var cron bool
 var debug bool
 var quiet bool
 var store Store
@@ -214,9 +215,11 @@ func cmdUpdate() {
 		}
 	}
 
-	t.Print()
-	if newCount+updatedCount > 0 {
-		fmt.Println()
+	if !quiet {
+		t.Print()
+		if newCount+updatedCount > 0 {
+			fmt.Println()
+		}
 	}
 
 	out, err := cbor.Marshal(store, cbor.CanonicalEncOptions())
@@ -227,7 +230,7 @@ func cmdUpdate() {
 
 	write(storePath, out)
 
-	if !quiet || quiet && (newCount > 0 || updatedCount > 0) {
+	if !quiet && (!cron || cron && (newCount > 0 || updatedCount > 0)) {
 		fmt.Printf("Total: %v, New: %v, Updated: %v\n", responses[0].Results[0].HitCount, newCount, updatedCount)
 	}
 }
@@ -316,6 +319,7 @@ func cmdFeedServe(args ...string) {
 }
 
 func init() {
+	cron = os.Getenv("CRON") != ""
 	debug = os.Getenv("DEBUG") != ""
 	quiet = os.Getenv("QUIET") != ""
 
