@@ -1,7 +1,7 @@
 .phony: clean
 
 BIN_NAME = deck-verified
-SOURCES = $(shell find . -name \*.go)
+SOURCES = $(shell find . -name \*.go -o -name \*.tpl)
 PREFIX = ~/.local/bin
 
 build: $(BIN_NAME)

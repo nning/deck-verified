@@ -6,6 +6,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"html/template"
 	"io"
 	"log"
 	"net/http"
@@ -51,6 +52,9 @@ var urlData []byte
 
 //go:embed data/request
 var requestData []byte
+
+//go:embed data/feeditem.tpl
+var feedItemTemplate string
 
 var cron bool
 var debug bool
@@ -259,6 +263,14 @@ func cmdList(status string) {
 	t.Print()
 }
 
+func generateFeedItemContent(tpl *template.Template, entry *Entry) string {
+	buf := new(bytes.Buffer)
+	err := tpl.Execute(buf, entry)
+	panicOnError(err)
+
+	return buf.String()
+}
+
 func generateFeed(n int) *feeds.Feed {
 	l := len(store)
 	if n == -1 {
@@ -281,11 +293,15 @@ func generateFeed(n int) *feeds.Feed {
 		Link:    &feeds.Link{Href: "http://github.com/nning/deck-verified"},
 	}
 
+	tpl, err := template.New("feedItem").Parse(feedItemTemplate)
+	panicOnError(err)
+
 	for _, entry := range entries[0:n] {
 		feed.Items = append(feed.Items, &feeds.Item{
-			Title:   "[" + entry.Status + "] " + entry.Name,
-			Link:    &feeds.Link{Href: "https://steamdb.info/app/" + entry.AppID + "/info/"},
-			Created: entry.LastUpdatedHere,
+			Title:       "[" + entry.Status + "] " + entry.Name,
+			Link:        &feeds.Link{Href: "https://steamdb.info/app/" + entry.AppID + "/info/"},
+			Created:     entry.LastUpdatedHere,
+			Description: generateFeedItemContent(tpl, entry),
 		})
 	}
 
@@ -315,6 +331,7 @@ func cmdFeedServe(args ...string) {
 		port = args[0]
 	}
 
+	fmt.Println("http://localhost:" + port + "/feed.xml")
 	log.Fatal(http.ListenAndServe(":"+port, nil))
 }
 
