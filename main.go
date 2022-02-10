@@ -38,6 +38,7 @@ type QueryResponse struct {
 	Status  int    `json:"status"`
 }
 
+// TODO Detect status changes
 type Entry struct {
 	Name               string
 	Status             string
