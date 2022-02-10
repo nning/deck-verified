@@ -290,7 +290,8 @@ func generateFeed(n int) *feeds.Feed {
 	}
 
 	sort.Slice(entries, func(i, j int) bool {
-		return entries[i].LastUpdatedHere.After(entries[j].LastUpdatedHere)
+		// TODO Sort by FirstSeen or LastUpdatedHere?
+		return entries[i].FirstSeen.After(entries[j].FirstSeen)
 	})
 
 	feed := &feeds.Feed{
@@ -304,9 +305,10 @@ func generateFeed(n int) *feeds.Feed {
 
 	for _, entry := range entries[0:n] {
 		feed.Items = append(feed.Items, &feeds.Item{
-			Title:       "[" + entry.Status + "] " + entry.Name,
-			Link:        &feeds.Link{Href: "https://steamdb.info/app/" + entry.AppID + "/info/"},
-			Created:     entry.LastUpdatedHere,
+			Title: "[" + entry.Status + "] " + entry.Name,
+			Link:  &feeds.Link{Href: "https://steamdb.info/app/" + entry.AppID + "/info/"},
+			// TODO Use FirstSeen or LastUpdatedHere?
+			Created:     entry.FirstSeen,
 			Description: generateFeedItemContent(tpl, entry),
 		})
 	}
@@ -325,7 +327,7 @@ func cmdFeed() {
 func cmdFeedServe(args ...string) {
 	http.HandleFunc("/feed.xml", func(w http.ResponseWriter, r *http.Request) {
 		store = getStore()
-		feed := generateFeed(15)
+		feed := generateFeed(-1)
 		content, err := feed.ToAtom()
 		panicOnError(err)
 
