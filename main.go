@@ -42,6 +42,7 @@ type QueryResponse struct {
 type Entry struct {
 	Name               string
 	Status             string
+	PreviousStatus     string
 	FirstSeen          time.Time
 	LastUpdatedSteamDB time.Time
 	LastUpdatedHere    time.Time
@@ -197,22 +198,27 @@ func cmdUpdate() {
 	for _, response := range responses {
 		for _, hit := range response.Results[0].Hits {
 			lastUpdated := time.Unix(int64(hit.LastUpdated), 0)
+			status := getVerificationStatus(hit.OsList)
 
 			if store[hit.Name] != nil {
-				status := getVerificationStatus(hit.OsList)
 				if lastUpdated.After(store[hit.Name].LastUpdatedSteamDB) || store[hit.Name].Status != status {
+					store[hit.Name].PreviousStatus = store[hit.Name].Status
 					store[hit.Name].Status = status
 					store[hit.Name].LastUpdatedSteamDB = lastUpdated
 					store[hit.Name].LastUpdatedHere = time.Now()
 
-					t.AddLine("Updated", hit.Name, status)
+					prev := ""
+					if status != store[hit.Name].PreviousStatus {
+						prev = store[hit.Name].PreviousStatus
+					}
+
+					t.AddLine("Updated", hit.Name, status, prev)
 					updatedCount = updatedCount + 1
 				}
 
 				continue
 			}
 
-			status := getVerificationStatus(hit.OsList)
 			store[hit.Name] = &Entry{
 				Name:               hit.Name,
 				Status:             status,
@@ -221,6 +227,7 @@ func cmdUpdate() {
 				LastUpdatedHere:    time.Now(),
 				AppID:              hit.AppID,
 			}
+
 			t.AddLine("New", hit.Name, status)
 			newCount = newCount + 1
 		}
