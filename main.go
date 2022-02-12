@@ -38,7 +38,6 @@ type QueryResponse struct {
 	Status  int    `json:"status"`
 }
 
-// TODO Detect status changes
 type Entry struct {
 	Name               string
 	Status             string
@@ -106,14 +105,21 @@ func requestPage(url string, page int, requestTemplate []byte) QueryResponse {
 	return r
 }
 
-func readFile(path string) []byte {
+func readFileXZ(path string) []byte {
 	f, err := os.Open(path)
 	panicOnError(err)
 
-	return read(f)
+	return readXZ(f)
 }
 
-func read(in io.Reader) []byte {
+func readFilePlain(path string) []byte {
+	f, err := os.Open(path)
+	panicOnError(err)
+
+	return readPlain(f)
+}
+
+func readXZ(in io.Reader) []byte {
 	r, err := xz.NewReader(in)
 	panicOnError(err)
 
@@ -126,7 +132,17 @@ func read(in io.Reader) []byte {
 	return w.Bytes()
 }
 
-func write(path string, out []byte) {
+func readPlain(in io.Reader) []byte {
+	buf := make([]byte, 0)
+	w := bytes.NewBuffer(buf)
+
+	_, err := io.Copy(w, in)
+	panicOnError(err)
+
+	return w.Bytes()
+}
+
+func writeXZ(path string, out []byte) {
 	f, err := os.Create(path)
 	panicOnError(err)
 	defer f.Close()
@@ -139,9 +155,18 @@ func write(path string, out []byte) {
 	panicOnError(err)
 }
 
+func writePlain(path string, out []byte) {
+	f, err := os.Create(path)
+	panicOnError(err)
+	defer f.Close()
+
+	io.Copy(f, bytes.NewBuffer(out))
+	panicOnError(err)
+}
+
 func searchSteamDB() []QueryResponse {
-	u := read(bytes.NewReader(urlData))
-	b0 := read(bytes.NewReader(requestData))
+	u := readXZ(bytes.NewReader(urlData))
+	b0 := readXZ(bytes.NewReader(requestData))
 
 	responses := make([]QueryResponse, 0)
 	pages := 1
@@ -175,16 +200,42 @@ func getVerificationStatus(oslist []string) string {
 	return ""
 }
 
-func getStore() Store {
+func getStore(cborXZ bool) Store {
 	store := make(Store)
 
-	if _, err := os.Stat(storePath); !errors.Is(err, os.ErrNotExist) {
-		x := readFile(storePath)
-		err = cbor.Unmarshal(x, &store)
-		panicOnError(err)
+	_, err := os.Stat(storePath)
+	if errors.Is(err, os.ErrNotExist) {
+		return store
 	}
 
+	if cborXZ {
+		x := readFileXZ(storePath)
+		err = cbor.Unmarshal(x, &store)
+	} else {
+		x := readFilePlain(storePath)
+		err = json.Unmarshal(x, &store)
+	}
+
+	panicOnError(err)
+
 	return store
+}
+
+func writeStore(cborXZ bool) {
+	err := os.MkdirAll(storeDir, 0700)
+	panicOnError(err)
+
+	if cborXZ {
+		out, err := cbor.Marshal(store, cbor.CanonicalEncOptions())
+		panicOnError(err)
+
+		writeXZ(storePath, out)
+	} else {
+		out, err := json.MarshalIndent(store, "", "  ")
+		panicOnError(err)
+
+		writePlain(storePath, out)
+	}
 }
 
 func cmdUpdate() {
@@ -201,20 +252,25 @@ func cmdUpdate() {
 			status := getVerificationStatus(hit.OsList)
 
 			if store[hit.Name] != nil {
-				if lastUpdated.After(store[hit.Name].LastUpdatedSteamDB) || store[hit.Name].Status != status {
-					store[hit.Name].PreviousStatus = store[hit.Name].Status
-					store[hit.Name].Status = status
-					store[hit.Name].LastUpdatedSteamDB = lastUpdated
-					store[hit.Name].LastUpdatedHere = time.Now()
-
-					prev := ""
-					if status != store[hit.Name].PreviousStatus {
-						prev = store[hit.Name].PreviousStatus
-					}
-
-					t.AddLine("Updated", hit.Name, status, prev)
-					updatedCount = updatedCount + 1
+				if !lastUpdated.After(store[hit.Name].LastUpdatedSteamDB) && store[hit.Name].Status == status {
+					continue
 				}
+
+				if store[hit.Name].Status != status {
+					store[hit.Name].LastUpdatedHere = time.Now()
+				}
+
+				store[hit.Name].PreviousStatus = store[hit.Name].Status
+				store[hit.Name].Status = status
+				store[hit.Name].LastUpdatedSteamDB = lastUpdated
+
+				prev := ""
+				if status != store[hit.Name].PreviousStatus && store[hit.Name].PreviousStatus != "" {
+					prev = "(previously: " + store[hit.Name].PreviousStatus + ")"
+				}
+
+				t.AddLine("Updated", hit.Name, status, prev)
+				updatedCount = updatedCount + 1
 
 				continue
 			}
@@ -222,6 +278,7 @@ func cmdUpdate() {
 			store[hit.Name] = &Entry{
 				Name:               hit.Name,
 				Status:             status,
+				PreviousStatus:     status,
 				FirstSeen:          time.Now(),
 				LastUpdatedSteamDB: lastUpdated,
 				LastUpdatedHere:    time.Now(),
@@ -240,13 +297,7 @@ func cmdUpdate() {
 		}
 	}
 
-	out, err := cbor.Marshal(store, cbor.CanonicalEncOptions())
-	panicOnError(err)
-
-	err = os.MkdirAll(storeDir, 0700)
-	panicOnError(err)
-
-	write(storePath, out)
+	writeStore(!debug)
 
 	if !quiet && (!cron || cron && (newCount > 0 || updatedCount > 0)) {
 		fmt.Printf("Total: %v, New: %v, Updated: %v\n", responses[0].Results[0].HitCount, newCount, updatedCount)
@@ -298,8 +349,7 @@ func generateFeed(n int) *feeds.Feed {
 	}
 
 	sort.Slice(entries, func(i, j int) bool {
-		// TODO Sort by FirstSeen or LastUpdatedHere?
-		return entries[i].FirstSeen.After(entries[j].FirstSeen)
+		return entries[i].LastUpdatedHere.After(entries[j].LastUpdatedHere)
 	})
 
 	feed := &feeds.Feed{
@@ -313,10 +363,10 @@ func generateFeed(n int) *feeds.Feed {
 
 	for _, entry := range entries[0:n] {
 		feed.Items = append(feed.Items, &feeds.Item{
-			Title: "[" + entry.Status + "] " + entry.Name,
-			Link:  &feeds.Link{Href: "https://steamdb.info/app/" + entry.AppID + "/info/"},
-			// TODO Use FirstSeen or LastUpdatedHere?
+			Title:       "[" + entry.Status + "] " + entry.Name,
+			Link:        &feeds.Link{Href: "https://steamdb.info/app/" + entry.AppID + "/info/"},
 			Created:     entry.FirstSeen,
+			Updated:     entry.LastUpdatedSteamDB,
 			Description: generateFeedItemContent(tpl, entry),
 		})
 	}
@@ -334,8 +384,8 @@ func cmdFeed() {
 
 func cmdFeedServe(args ...string) {
 	http.HandleFunc("/feed.xml", func(w http.ResponseWriter, r *http.Request) {
-		store = getStore()
-		feed := generateFeed(-1)
+		store = getStore(!debug)
+		feed := generateFeed(15)
 		content, err := feed.ToAtom()
 		panicOnError(err)
 
@@ -356,7 +406,11 @@ func init() {
 	debug = os.Getenv("DEBUG") != ""
 	quiet = os.Getenv("QUIET") != ""
 
-	store = getStore()
+	if debug {
+		storePath = storePath + ".json"
+	}
+
+	store = getStore(!debug)
 }
 
 func main() {

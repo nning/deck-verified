@@ -5,7 +5,14 @@
     </tr>
     <tr>
         <td>Status</td>
-        <td><strong>{{ .Status }}</strong></td>
+        <td>
+            <strong>{{ .Status }}</strong>
+            {{if ne .PreviousStatus ""}}
+                {{if ne .Status .PreviousStatus}}
+                    (previously: {{ .PreviousStatus }})
+                {{end}}
+            {{end}}
+        </td>
     </tr>
     <tr>
         <td>App ID</td>
