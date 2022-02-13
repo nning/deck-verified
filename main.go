@@ -275,13 +275,15 @@ func cmdUpdate() {
 				continue
 			}
 
+			now := time.Now()
+
 			store[hit.Name] = &Entry{
 				Name:               hit.Name,
 				Status:             status,
 				PreviousStatus:     status,
-				FirstSeen:          time.Now(),
+				FirstSeen:          now,
 				LastUpdatedSteamDB: lastUpdated,
-				LastUpdatedHere:    time.Now(),
+				LastUpdatedHere:    now,
 				AppID:              hit.AppID,
 			}
 
@@ -365,8 +367,7 @@ func generateFeed(n int) *feeds.Feed {
 		feed.Items = append(feed.Items, &feeds.Item{
 			Title:       "[" + entry.Status + "] " + entry.Name,
 			Link:        &feeds.Link{Href: "https://steamdb.info/app/" + entry.AppID + "/info/"},
-			Created:     entry.FirstSeen,
-			Updated:     entry.LastUpdatedSteamDB,
+			Updated:     entry.LastUpdatedHere,
 			Description: generateFeedItemContent(tpl, entry),
 		})
 	}
