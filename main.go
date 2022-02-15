@@ -370,6 +370,10 @@ func generateFeed(n int) *feeds.Feed {
 	panicOnError(err)
 
 	for _, entry := range entries[0:n] {
+		if entry == nil {
+			continue
+		}
+
 		feed.Items = append(feed.Items, &feeds.Item{
 			Title:       "[" + entry.Status + "] " + entry.Name,
 			Link:        &feeds.Link{Href: "https://steamdb.info/app/" + entry.AppID + "/info/"},
