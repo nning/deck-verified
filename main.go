@@ -251,6 +251,10 @@ func cmdUpdate() {
 			lastUpdated := time.Unix(int64(hit.LastUpdated), 0)
 			status := getVerificationStatus(hit.OsList)
 
+			if hit.Name == "" {
+				continue
+			}
+
 			if store[hit.Name] != nil {
 				if !lastUpdated.After(store[hit.Name].LastUpdatedSteamDB) && store[hit.Name].Status == status {
 					continue
@@ -347,7 +351,9 @@ func generateFeed(n int) *feeds.Feed {
 	entries := make([]*Entry, 0, l)
 
 	for _, entry := range store {
-		entries = append(entries, entry)
+		if entry.Name != "" {
+			entries = append(entries, entry)
+		}
 	}
 
 	sort.Slice(entries, func(i, j int) bool {
@@ -386,7 +392,7 @@ func cmdFeed() {
 func cmdFeedServe(args ...string) {
 	http.HandleFunc("/feed.xml", func(w http.ResponseWriter, r *http.Request) {
 		store = getStore(!debug)
-		feed := generateFeed(15)
+		feed := generateFeed(-1)
 		content, err := feed.ToAtom()
 		panicOnError(err)
 
