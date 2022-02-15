@@ -327,7 +327,7 @@ func cmdList(status string) {
 
 	for name, data := range store {
 		if status == "" || status == strings.ToLower(data.Status) {
-			t.AddLine(name, data.Status, data.LastUpdatedSteamDB)
+			t.AddLine(name, data.Status)
 		}
 	}
 
