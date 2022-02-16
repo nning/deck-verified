@@ -313,6 +313,7 @@ func cmdUpdate() {
 func cmdSearch(term string) {
 	t := tabby.New()
 
+	// TODO Sort by Name (using getEntriesFromStore with custom less function)
 	for name, data := range store {
 		if strings.Contains(strings.ToLower(name), term) {
 			t.AddLine(name, data.Status, data.LastUpdatedSteamDB)
@@ -334,6 +335,8 @@ func cmdList(status string) {
 	t.Print()
 }
 
+// TODO Take optional less function, use sort by LastUpdatedHere as default but
+//      allow sorting by Name in cmdSearch
 func getEntriesFromStore(store *Store) []*Entry {
 	entries := make([]*Entry, 0, len(*store))
 
