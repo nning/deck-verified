@@ -334,6 +334,22 @@ func cmdList(status string) {
 	t.Print()
 }
 
+func getEntriesFromStore(store *Store) []*Entry {
+	entries := make([]*Entry, 0, len(*store))
+
+	for _, entry := range *store {
+		if entry.Name != "" {
+			entries = append(entries, entry)
+		}
+	}
+
+	sort.Slice(entries, func(i, j int) bool {
+		return entries[i].LastUpdatedHere.After(entries[j].LastUpdatedHere)
+	})
+
+	return entries
+}
+
 func generateFeedItemContent(tpl *template.Template, entry *Entry) string {
 	buf := new(bytes.Buffer)
 	err := tpl.Execute(buf, entry)
@@ -348,17 +364,7 @@ func generateFeed(n int) *feeds.Feed {
 		n = l
 	}
 
-	entries := make([]*Entry, 0, l)
-
-	for _, entry := range store {
-		if entry.Name != "" {
-			entries = append(entries, entry)
-		}
-	}
-
-	sort.Slice(entries, func(i, j int) bool {
-		return entries[i].LastUpdatedHere.After(entries[j].LastUpdatedHere)
-	})
+	entries := getEntriesFromStore(&store)
 
 	feed := &feeds.Feed{
 		Title:   "Steam Deck Verified",
@@ -412,6 +418,37 @@ func cmdFeedServe(args ...string) {
 	log.Fatal(http.ListenAndServe(":"+port, nil))
 }
 
+func cmdStats() {
+	total := len(store)
+	a, b, c := 0, 0, 0
+
+	var d time.Time
+
+	for _, entry := range store {
+		switch entry.Status {
+		case "Verified":
+			a += 1
+		case "Playable":
+			b += 1
+		case "Unsupported":
+			c += 1
+		}
+	}
+
+	entries := getEntriesFromStore(&store)
+	d = entries[0].LastUpdatedHere
+
+	t := tabby.New()
+
+	t.AddLine("Total", total)
+	t.AddLine("Verified", a)
+	t.AddLine("Playable", b)
+	t.AddLine("Unsupported", c)
+	t.AddLine("Last Updated", d)
+
+	t.Print()
+}
+
 func init() {
 	cron = os.Getenv("CRON") != ""
 	debug = os.Getenv("DEBUG") != ""
@@ -449,5 +486,9 @@ func main() {
 		} else {
 			cmdFeed()
 		}
+	}
+
+	if len(os.Args) > 1 && os.Args[1] == "stats" {
+		cmdStats()
 	}
 }
