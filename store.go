@@ -11,6 +11,18 @@ import (
 
 type Store map[string]*Entry
 
+func lessByNameAsc(entries []*Entry) func(i, j int) bool {
+	return func(i, j int) bool {
+		return entries[i].Name < entries[j].Name
+	}
+}
+
+func lessByLastUpdatedHereDesc(entries []*Entry) func(i, j int) bool {
+	return func(i, j int) bool {
+		return entries[i].LastUpdatedHere.After(entries[j].LastUpdatedHere)
+	}
+}
+
 func getEntriesFromStore(store *Store, funcs ...func(entries []*Entry) func(i, j int) bool) []*Entry {
 	entries := make([]*Entry, 0, len(*store))
 
@@ -24,9 +36,7 @@ func getEntriesFromStore(store *Store, funcs ...func(entries []*Entry) func(i, j
 	if len(funcs) > 0 {
 		lessFunc = funcs[0](entries)
 	} else {
-		lessFunc = func(i, j int) bool {
-			return entries[i].LastUpdatedHere.After(entries[j].LastUpdatedHere)
-		}
+		lessFunc = lessByLastUpdatedHereDesc(entries)
 	}
 
 	sort.Slice(entries, lessFunc)

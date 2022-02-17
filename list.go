@@ -9,9 +9,11 @@ import (
 func cmdList(status string) {
 	t := tabby.New()
 
-	for name, data := range store {
-		if status == "" || status == strings.ToLower(data.Status) {
-			t.AddLine(name, data.Status)
+	entries := getEntriesFromStore(&store, lessByNameAsc)
+
+	for _, entry := range entries {
+		if status == "" || status == strings.ToLower(entry.Status) {
+			t.AddLine(entry.Name, entry.Status)
 		}
 	}
 
