@@ -11,9 +11,7 @@ import (
 
 type Store map[string]*Entry
 
-// TODO Take optional less function, use sort by LastUpdatedHere as default but
-//      allow sorting by Name in cmdSearch
-func getEntriesFromStore(store *Store) []*Entry {
+func getEntriesFromStore(store *Store, funcs ...func(entries []*Entry) func(i, j int) bool) []*Entry {
 	entries := make([]*Entry, 0, len(*store))
 
 	for _, entry := range *store {
@@ -22,9 +20,16 @@ func getEntriesFromStore(store *Store) []*Entry {
 		}
 	}
 
-	sort.Slice(entries, func(i, j int) bool {
-		return entries[i].LastUpdatedHere.After(entries[j].LastUpdatedHere)
-	})
+	var lessFunc func(i, j int) bool
+	if len(funcs) > 0 {
+		lessFunc = funcs[0](entries)
+	} else {
+		lessFunc = func(i, j int) bool {
+			return entries[i].LastUpdatedHere.After(entries[j].LastUpdatedHere)
+		}
+	}
+
+	sort.Slice(entries, lessFunc)
 
 	return entries
 }

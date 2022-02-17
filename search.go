@@ -9,10 +9,15 @@ import (
 func cmdSearch(term string) {
 	t := tabby.New()
 
-	// TODO Sort by Name (using getEntriesFromStore with custom less function)
-	for name, data := range store {
-		if strings.Contains(strings.ToLower(name), term) {
-			t.AddLine(name, data.Status, data.LastUpdatedSteamDB)
+	entries := getEntriesFromStore(&store, func(entries []*Entry) func(i, j int) bool {
+		return func(i, j int) bool {
+			return entries[i].Name < entries[j].Name
+		}
+	})
+
+	for _, entry := range entries {
+		if strings.Contains(strings.ToLower(entry.Name), term) {
+			t.AddLine(entry.Name, entry.Status, entry.LastUpdatedHere)
 		}
 	}
 
