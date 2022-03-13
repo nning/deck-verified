@@ -31,6 +31,7 @@ func cmdStats() {
 	t.AddLine("Total", total)
 	t.AddLine("Verified", a)
 	t.AddLine("Playable", b)
+	t.AddLine("Verified+Playable", b+c)
 	t.AddLine("Unsupported", c)
 	t.AddLine("Last Updated", d)
 
