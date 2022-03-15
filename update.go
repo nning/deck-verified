@@ -75,6 +75,6 @@ func cmdUpdate() {
 	writeStore(!debug)
 
 	if !quiet && (!cron || cron && (newCount > 0 || updatedCount > 0)) {
-		fmt.Printf("Total: %v, New: %v, Updated: %v\n", responses[0].Results[0].HitCount, newCount, updatedCount)
+		fmt.Printf("Total: %v, New: %v, Updated: %v\n", len(store), newCount, updatedCount)
 	}
 }

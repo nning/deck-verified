@@ -1,0 +1,8 @@
+{
+    "requests": [
+        {
+            "indexName": "steamdb",
+            "params": "attributesToRetrieve=%5B%22lastUpdated%22%2C%22name%22%2C%22oslist%22%2C%22price_us%22%2C%22releaseYear%22%2C%22userScore%22%5D&attributesToHighlight=%5B%22name%22%5D&hitsPerPage=40&query=&highlightPreTag=__ais-highlight__&highlightPostTag=__%2Fais-highlight__&page=${page}&maxValuesPerFacet=200&facets=%5B%22tags%22%2C%22multiplayerCategories%22%2C%22categories%22%2C%22vrCategories%22%2C%22languages%22%2C%22languagesAudio%22%2C%22languagesSubtitles%22%2C%22technologies%22%2C%22appType%22%2C%22userScore%22%2C%22oslist%22%2C%22developer%22%2C%22publisher%22%2C%22price_us%22%2C%22releaseYear%22%5D&tagFilters=&facetFilters=%5B%5B%22oslist%3ASteam%20Deck%20${status}%22%5D%5D&numericFilters=%5B%22price_us<=${price_max}%22%2C%22price_us>=${price_min}%22%5D"
+        }
+    ]
+}
