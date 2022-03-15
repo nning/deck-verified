@@ -9,6 +9,7 @@ import (
 	"net/http"
 	"os"
 	"strconv"
+	"strings"
 )
 
 //go:embed data/url
@@ -21,7 +22,6 @@ func requestPage(url string, status string, page, priceMin, priceMax int, reques
 	strPage := strconv.FormatInt(int64(page), 10)
 	strPriceMin := strconv.FormatInt(int64(priceMin), 10)
 	strPriceMax := strconv.FormatInt(int64(priceMax), 10)
-	// status := "Verified"
 
 	b1 := bytes.Replace(requestTemplate, []byte("${page}"), []byte(strPage), 1)
 	b1 = bytes.Replace(b1, []byte("${price_min}"), []byte(strPriceMin), 1)
@@ -45,7 +45,8 @@ func requestPage(url string, status string, page, priceMin, priceMax int, reques
 	panicOnError(err)
 
 	if debug {
-		err = os.WriteFile("data/response"+strconv.FormatInt(int64(page), 10)+".json", body, 0600)
+		name := strings.Join([]string{"response", status, strPriceMin, strPriceMax, strPage}, "-")
+		err = os.WriteFile("data/"+name+".json", body, 0600)
 		panicOnError(err)
 	}
 
@@ -65,7 +66,7 @@ func searchSteamDB() []QueryResponse {
 	// TODO: Improve price ranges, e.g. 0-9.99, 10-19.99, ...
 	// TODO: Fire a number of requests concurrently
 	for _, status := range []string{"Verified", "Playable", "Unsupported"} {
-		for priceMin := 0; priceMin <= 60; priceMin += 10 {
+		for priceMin := 0; priceMin <= 120; priceMin += 10 {
 			priceMax := priceMin + 10
 			pages := 1
 
