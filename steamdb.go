@@ -62,8 +62,8 @@ func searchSteamDB() []QueryResponse {
 
 	responses := make([]QueryResponse, 0)
 
-	// TODO: In addition to pages, loop verification status and price ranges
-	//       (e.g. 0-9.99, 10-19.99, ..., 50-59.99)
+	// TODO: Improve price ranges, e.g. 0-9.99, 10-19.99, ...
+	// TODO: Fire a number of requests concurrently
 	for _, status := range []string{"Verified", "Playable", "Unsupported"} {
 		for priceMin := 0; priceMin <= 60; priceMin += 10 {
 			priceMax := priceMin + 10
