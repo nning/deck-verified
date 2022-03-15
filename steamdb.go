@@ -70,6 +70,7 @@ func searchSteamDB() []QueryResponse {
 			priceMax := priceMin + 10
 			pages := 1
 
+			// TODO: Request first page, then request other pages in parallel
 			for page := 0; page < pages; page++ {
 				r := requestPage(string(u), status, page, priceMin, priceMax, b0)
 
