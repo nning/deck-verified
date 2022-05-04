@@ -58,7 +58,7 @@ func requestPage(url string, status string, page, priceMin, priceMax int, reques
 }
 
 func searchSteamDB() []QueryResponse {
-	u := readXZ(bytes.NewReader(urlData))
+	u := readPlain(bytes.NewReader(urlData))
 	b0 := readPlain(bytes.NewReader(requestData))
 
 	responses := make([]QueryResponse, 0)

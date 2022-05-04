@@ -39,7 +39,7 @@ var store Store
 
 var home, _ = os.UserHomeDir()
 var storeDir = path.Join(home, ".cache", "deck-verified")
-var storePath = path.Join(storeDir, "store")
+var storePath = path.Join(storeDir, "store.json")
 
 func panicOnError(err error) {
 	if err != nil {
@@ -64,11 +64,7 @@ func init() {
 	debug = os.Getenv("DEBUG") != ""
 	quiet = os.Getenv("QUIET") != ""
 
-	if debug {
-		storePath = storePath + ".json"
-	}
-
-	store = getStore(!debug)
+	store = getStore(false)
 }
 
 func main() {

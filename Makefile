@@ -17,4 +17,4 @@ install: build
 	cp $(BIN_NAME) $(PREFIX)
 
 clean:
-	rm -f $(BIN_NAME) data/response*.json data/store.json
+	rm -f $(BIN_NAME) data/response*.json
