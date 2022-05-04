@@ -24,22 +24,24 @@ func cmdUpdate() {
 				continue
 			}
 
-			if store[hit.Name] != nil {
-				if !lastUpdated.After(store[hit.Name].LastUpdatedSteamDB) && store[hit.Name].Status == status {
+			entry := store[hit.AppID]
+
+			if entry != nil {
+				if !lastUpdated.After(entry.LastUpdatedSteamDB) && entry.Status == status {
 					continue
 				}
 
-				if store[hit.Name].Status != status {
-					store[hit.Name].LastUpdatedHere = time.Now()
+				if entry.Status != status {
+					entry.LastUpdatedHere = time.Now()
 				}
 
-				store[hit.Name].PreviousStatus = store[hit.Name].Status
-				store[hit.Name].Status = status
-				store[hit.Name].LastUpdatedSteamDB = lastUpdated
+				entry.PreviousStatus = entry.Status
+				entry.Status = status
+				entry.LastUpdatedSteamDB = lastUpdated
 
 				prev := ""
-				if status != store[hit.Name].PreviousStatus && store[hit.Name].PreviousStatus != "" {
-					prev = "(previously: " + store[hit.Name].PreviousStatus + ")"
+				if status != entry.PreviousStatus && entry.PreviousStatus != "" {
+					prev = "(previously: " + entry.PreviousStatus + ")"
 				}
 
 				t.AddLine("Updated", hit.Name, status, prev)
@@ -50,7 +52,7 @@ func cmdUpdate() {
 
 			now := time.Now()
 
-			store[hit.Name] = &Entry{
+			store[hit.AppID] = &Entry{
 				Name:               hit.Name,
 				Status:             status,
 				PreviousStatus:     status,
