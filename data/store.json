@@ -36989,6 +36989,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.461686116+02:00",
     "AppID": "909570"
   },
+  "909820": {
+    "Name": "Songbird Symphony",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-05-22T20:55:58.39670977+02:00",
+    "LastUpdatedSteamDB": "2020-04-01T17:04:57+02:00",
+    "LastUpdatedHere": "2022-05-22T20:55:58.39670977+02:00",
+    "AppID": "909820"
+  },
   "910490": {
     "Name": "Killsquad",
     "Status": "Unsupported",
