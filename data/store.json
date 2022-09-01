@@ -11177,6 +11177,15 @@
     "LastUpdatedHere": "2022-05-11T17:19:17.837297125+02:00",
     "AppID": "1275760"
   },
+  "1275810": {
+    "Name": "Stan Lee's Verticus",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-01T12:19:15.584801154+02:00",
+    "LastUpdatedSteamDB": "2020-12-15T21:50:41+01:00",
+    "LastUpdatedHere": "2022-09-01T12:19:15.584801154+02:00",
+    "AppID": "1275810"
+  },
   "1275890": {
     "Name": "Baldi's Basics Plus",
     "Status": "Verified",
@@ -12743,6 +12752,15 @@
     "LastUpdatedHere": "2022-08-06T18:47:45.782651624+02:00",
     "AppID": "1324270"
   },
+  "1324350": {
+    "Name": "Turbo Golf Racing",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-01T12:19:15.585462228+02:00",
+    "LastUpdatedSteamDB": "2022-08-18T15:24:07+02:00",
+    "LastUpdatedHere": "2022-09-01T12:19:15.585462228+02:00",
+    "AppID": "1324350"
+  },
   "13250": {
     "Name": "Unreal Gold",
     "Status": "Unsupported",
@@ -13885,6 +13903,15 @@
     "LastUpdatedSteamDB": "2021-05-29T01:49:02+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.455582263+02:00",
     "AppID": "1361680"
+  },
+  "1361840": {
+    "Name": "Tunnel of Doom",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-01T12:19:15.585551657+02:00",
+    "LastUpdatedSteamDB": "2022-03-01T07:22:53+01:00",
+    "LastUpdatedHere": "2022-09-01T12:19:15.585551657+02:00",
+    "AppID": "1361840"
   },
   "1363740": {
     "Name": "The Troop",
@@ -15208,6 +15235,15 @@
     "LastUpdatedSteamDB": "2022-01-13T10:12:25+01:00",
     "LastUpdatedHere": "2022-08-17T00:16:56.02951478+02:00",
     "AppID": "1410710"
+  },
+  "1410980": {
+    "Name": "Serafina and the Key to the Egg",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-01T12:19:15.585045955+02:00",
+    "LastUpdatedSteamDB": "2022-08-12T04:03:06+02:00",
+    "LastUpdatedHere": "2022-09-01T12:19:15.585045955+02:00",
+    "AppID": "1410980"
   },
   "1411740": {
     "Name": "Urbek City Builder",
@@ -19664,6 +19700,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.451103007+02:00",
     "AppID": "1591290"
   },
+  "1591520": {
+    "Name": "Clownfield 2042",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-01T12:19:15.585293952+02:00",
+    "LastUpdatedSteamDB": "2022-04-08T10:56:17+02:00",
+    "LastUpdatedHere": "2022-09-01T12:19:15.585293952+02:00",
+    "AppID": "1591520"
+  },
   "1591530": {
     "Name": "SAMURAI WARRIORS 5",
     "Status": "Unsupported",
@@ -21806,6 +21851,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.459958012+02:00",
     "AppID": "1696020"
   },
+  "1696220": {
+    "Name": "FixFox",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-01T12:19:15.585260509+02:00",
+    "LastUpdatedSteamDB": "2022-08-25T09:24:57+02:00",
+    "LastUpdatedHere": "2022-09-01T12:19:15.585260509+02:00",
+    "AppID": "1696220"
+  },
   "1696720": {
     "Name": "PsiloSybil",
     "Status": "Verified",
@@ -22652,6 +22706,15 @@
     "LastUpdatedHere": "2022-08-31T12:09:49.356407317+02:00",
     "AppID": "1731200"
   },
+  "1731460": {
+    "Name": "LEGO® Brawls",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-01T12:19:15.584888789+02:00",
+    "LastUpdatedSteamDB": "2022-05-17T01:50:46+02:00",
+    "LastUpdatedHere": "2022-09-01T12:19:15.584888789+02:00",
+    "AppID": "1731460"
+  },
   "1731720": {
     "Name": "FURRY SEX: Cabaret 💋🔞",
     "Status": "Verified",
@@ -23381,6 +23444,15 @@
     "LastUpdatedHere": "2022-07-13T10:18:15.791336604+02:00",
     "AppID": "1767160"
   },
+  "1767220": {
+    "Name": "The Kids We Were",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-01T12:19:15.585479391+02:00",
+    "LastUpdatedSteamDB": "2021-10-11T10:41:41+02:00",
+    "LastUpdatedHere": "2022-09-01T12:19:15.585479391+02:00",
+    "AppID": "1767220"
+  },
   "1767320": {
     "Name": "그레텔과 윈슬로의 별장",
     "Status": "Verified",
@@ -23857,6 +23929,15 @@
     "LastUpdatedSteamDB": "2021-10-30T14:44:04+02:00",
     "LastUpdatedHere": "2022-06-24T12:33:00.988264116+02:00",
     "AppID": "1797840"
+  },
+  "1797880": {
+    "Name": "Lost Light",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-01T12:19:15.585795916+02:00",
+    "LastUpdatedSteamDB": "2022-08-03T10:50:51+02:00",
+    "LastUpdatedHere": "2022-09-01T12:19:15.585795916+02:00",
+    "AppID": "1797880"
   },
   "1798780": {
     "Name": "Dimension Tripper Neptune: TOP NEP",
@@ -25999,6 +26080,15 @@
     "LastUpdatedSteamDB": "2022-06-24T09:50:30+02:00",
     "LastUpdatedHere": "2022-08-31T12:09:49.357546871+02:00",
     "AppID": "1973080"
+  },
+  "1973710": {
+    "Name": "ヘブンバーンズレッド",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-01T12:19:15.585678105+02:00",
+    "LastUpdatedSteamDB": "2022-07-13T04:16:17+02:00",
+    "LastUpdatedHere": "2022-09-01T12:19:15.585678105+02:00",
+    "AppID": "1973710"
   },
   "1975360": {
     "Name": "DRAINUS",
@@ -31553,6 +31643,15 @@
     "LastUpdatedHere": "2022-05-21T16:39:54.208416346+02:00",
     "AppID": "266130"
   },
+  "266210": {
+    "Name": "One Way Heroics",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-01T12:19:15.585667855+02:00",
+    "LastUpdatedSteamDB": "2019-11-01T13:14:18+01:00",
+    "LastUpdatedHere": "2022-09-01T12:19:15.585667855+02:00",
+    "AppID": "266210"
+  },
   "266310": {
     "Name": "GameGuru Classic",
     "Status": "Unsupported",
@@ -31822,6 +31921,15 @@
     "LastUpdatedSteamDB": "2014-03-07T23:18:45+01:00",
     "LastUpdatedHere": "2022-07-13T10:18:15.792402474+02:00",
     "AppID": "270090"
+  },
+  "270110": {
+    "Name": "Block Story™",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-01T12:19:15.585355638+02:00",
+    "LastUpdatedSteamDB": "2020-03-09T12:18:53+01:00",
+    "LastUpdatedHere": "2022-09-01T12:19:15.585355638+02:00",
+    "AppID": "270110"
   },
   "270130": {
     "Name": "The Gallery - Episode 1: Call of the Starseed",
@@ -34550,6 +34658,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.460791857+02:00",
     "AppID": "315460"
   },
+  "315660": {
+    "Name": "Trainz: A New Era",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-01T12:19:15.585911975+02:00",
+    "LastUpdatedSteamDB": "2019-06-13T02:06:50+02:00",
+    "LastUpdatedHere": "2022-09-01T12:19:15.585911975+02:00",
+    "AppID": "315660"
+  },
   "315850": {
     "Name": "Amazing Princess Sarah",
     "Status": "Unsupported",
@@ -36871,6 +36988,15 @@
     "LastUpdatedSteamDB": "2017-09-14T05:25:27+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.458862259+02:00",
     "AppID": "348250"
+  },
+  "34830": {
+    "Name": "Sniper: Ghost Warrior",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-01T12:19:15.585793833+02:00",
+    "LastUpdatedSteamDB": "2019-11-28T11:40:28+01:00",
+    "LastUpdatedHere": "2022-09-01T12:19:15.585793833+02:00",
+    "AppID": "34830"
   },
   "348430": {
     "Name": "Quell Reflect",
@@ -39598,6 +39724,15 @@
     "LastUpdatedSteamDB": "2020-01-15T14:46:01+01:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.454490071+02:00",
     "AppID": "391540"
+  },
+  "39160": {
+    "Name": "Dungeon Siege III",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-01T12:19:15.585933465+02:00",
+    "LastUpdatedSteamDB": "2019-12-11T01:53:29+01:00",
+    "LastUpdatedHere": "2022-09-01T12:19:15.585933465+02:00",
+    "AppID": "39160"
   },
   "391730": {
     "Name": "Crashlands",
@@ -56933,6 +57068,15 @@
     "LastUpdatedHere": "2022-05-28T18:44:48.682852472+02:00",
     "AppID": "865360"
   },
+  "865610": {
+    "Name": "Backbone",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-01T12:19:15.585612251+02:00",
+    "LastUpdatedSteamDB": "2022-02-14T13:33:05+01:00",
+    "LastUpdatedHere": "2022-09-01T12:19:15.585612251+02:00",
+    "AppID": "865610"
+  },
   "865940": {
     "Name": "SNK 40th ANNIVERSARY COLLECTION",
     "Status": "Verified",
@@ -59911,6 +60055,15 @@
     "LastUpdatedSteamDB": "2020-09-29T17:19:57+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.458933428+02:00",
     "AppID": "955050"
+  },
+  "955560": {
+    "Name": "Evenicle",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-01T12:19:15.586016311+02:00",
+    "LastUpdatedSteamDB": "2022-03-18T11:43:45+01:00",
+    "LastUpdatedHere": "2022-09-01T12:19:15.586016311+02:00",
+    "AppID": "955560"
   },
   "955740": {
     "Name": "Mini Healer",
