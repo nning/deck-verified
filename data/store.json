@@ -517,7 +517,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.455405143+02:00",
-    "LastUpdatedSteamDB": "2022-08-05T15:59:43+02:00",
+    "LastUpdatedSteamDB": "2022-09-12T16:53:03+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.455405143+02:00",
     "AppID": "1013320"
   },
@@ -1322,6 +1322,15 @@
     "LastUpdatedHere": "2022-07-13T10:18:15.791425642+02:00",
     "AppID": "1031270"
   },
+  "1031440": {
+    "Name": "TOKYO CHRONOS",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.6452412+02:00",
+    "LastUpdatedSteamDB": "2022-09-08T06:13:28+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.6452412+02:00",
+    "AppID": "1031440"
+  },
   "1031900": {
     "Name": "You Can Kana - Learn Japanese Hiragana \u0026 Katakana",
     "Status": "Playable",
@@ -1552,7 +1561,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-28T18:44:48.681371322+02:00",
-    "LastUpdatedSteamDB": "2020-08-29T23:36:19+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T23:03:18+02:00",
     "LastUpdatedHere": "2022-05-28T18:44:48.681371322+02:00",
     "AppID": "1037190"
   },
@@ -1660,7 +1669,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.452991678+02:00",
-    "LastUpdatedSteamDB": "2022-08-30T09:57:55+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T11:13:19+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.452991678+02:00",
     "AppID": "1040230"
   },
@@ -2119,7 +2128,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.452645401+02:00",
-    "LastUpdatedSteamDB": "2022-03-28T18:33:49+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T22:05:39+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.452645401+02:00",
     "AppID": "1051690"
   },
@@ -2218,7 +2227,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.451338236+02:00",
-    "LastUpdatedSteamDB": "2022-08-24T21:55:28+02:00",
+    "LastUpdatedSteamDB": "2022-09-12T16:07:42+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.451338236+02:00",
     "AppID": "1055850"
   },
@@ -2551,7 +2560,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.457832926+02:00",
-    "LastUpdatedSteamDB": "2022-09-08T14:07:29+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T15:44:08+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.457832926+02:00",
     "AppID": "1062090"
   },
@@ -2776,7 +2785,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.454221948+02:00",
-    "LastUpdatedSteamDB": "2022-08-31T19:23:21+02:00",
+    "LastUpdatedSteamDB": "2022-09-01T02:26:23+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.454221948+02:00",
     "AppID": "1066890"
   },
@@ -3352,16 +3361,16 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.451219085+02:00",
-    "LastUpdatedSteamDB": "2022-05-21T02:51:25+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T18:47:59+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.451219085+02:00",
     "AppID": "1078350"
   },
   "1078370": {
     "Name": "Succubus x Saint",
     "Status": "Playable",
-    "PreviousStatus": "Unsupported",
+    "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-21T16:39:54.209023821+02:00",
-    "LastUpdatedSteamDB": "2022-03-23T13:05:08+01:00",
+    "LastUpdatedSteamDB": "2022-09-14T11:16:31+02:00",
     "LastUpdatedHere": "2022-06-24T12:33:00.98891226+02:00",
     "AppID": "1078370"
   },
@@ -3725,6 +3734,15 @@
     "LastUpdatedHere": "2022-08-22T09:56:04.250810484+02:00",
     "AppID": "1086410"
   },
+  "1086850": {
+    "Name": "Garden of the Sea",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.645216685+02:00",
+    "LastUpdatedSteamDB": "2022-02-24T16:14:17+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.645216685+02:00",
+    "AppID": "1086850"
+  },
   "1086860": {
     "Name": "TOUHOU SKY ARENA MATSURI CLIMAX",
     "Status": "Playable",
@@ -3779,12 +3797,21 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.453406401+02:00",
     "AppID": "1088710"
   },
+  "1088770": {
+    "Name": "Car Mechanic Simulator VR",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.645163395+02:00",
+    "LastUpdatedSteamDB": "2022-07-28T11:41:15+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.645163395+02:00",
+    "AppID": "1088770"
+  },
   "1088790": {
     "Name": "Rebel Inc: Escalation",
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-06-24T12:33:00.989092221+02:00",
-    "LastUpdatedSteamDB": "2022-08-30T17:39:45+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T18:47:47+02:00",
     "LastUpdatedHere": "2022-06-24T12:33:00.989092221+02:00",
     "AppID": "1088790"
   },
@@ -3869,6 +3896,15 @@
     "LastUpdatedHere": "2022-07-13T10:18:15.789263354+02:00",
     "AppID": "1090020"
   },
+  "1090250": {
+    "Name": "Crunch Element",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.645127217+02:00",
+    "LastUpdatedSteamDB": "2022-04-09T17:09:17+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.645127217+02:00",
+    "AppID": "1090250"
+  },
   "1090630": {
     "Name": "Granblue Fantasy: Versus",
     "Status": "Unsupported",
@@ -3892,7 +3928,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.458750791+02:00",
-    "LastUpdatedSteamDB": "2022-09-06T17:03:49+02:00",
+    "LastUpdatedSteamDB": "2022-09-13T14:23:08+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.458750791+02:00",
     "AppID": "1091500"
   },
@@ -4171,7 +4207,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-04T20:15:35.461159297+02:00",
-    "LastUpdatedSteamDB": "2022-06-21T12:21:27+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T11:30:18+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.461159297+02:00",
     "AppID": "1097150"
   },
@@ -4189,7 +4225,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.458509486+02:00",
-    "LastUpdatedSteamDB": "2022-09-09T20:34:59+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T22:39:57+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.458509486+02:00",
     "AppID": "1097350"
   },
@@ -4354,6 +4390,15 @@
     "LastUpdatedSteamDB": "2021-12-01T15:59:22+01:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.45863632+02:00",
     "AppID": "1099410"
+  },
+  "1099640": {
+    "Name": "Jack Move",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.643073922+02:00",
+    "LastUpdatedSteamDB": "2022-09-09T12:06:42+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643073922+02:00",
+    "AppID": "1099640"
   },
   "1100150": {
     "Name": "Touhou Chireiden ~ Subterranean Animism.",
@@ -4621,7 +4666,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.456276843+02:00",
-    "LastUpdatedSteamDB": "2022-08-29T16:51:30+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T13:38:22+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.456276843+02:00",
     "AppID": "1105670"
   },
@@ -5044,7 +5089,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.45278313+02:00",
-    "LastUpdatedSteamDB": "2021-10-08T16:56:52+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T11:34:52+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.45278313+02:00",
     "AppID": "1116580"
   },
@@ -5119,6 +5164,15 @@
     "LastUpdatedSteamDB": "2021-07-16T04:51:48+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.46110936+02:00",
     "AppID": "1118070"
+  },
+  "1118200": {
+    "Name": "People Playground",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.643388701+02:00",
+    "LastUpdatedSteamDB": "2022-07-31T13:03:34+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643388701+02:00",
+    "AppID": "1118200"
   },
   "1118240": {
     "Name": "Lake",
@@ -5314,7 +5368,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-24T09:52:30.161344262+02:00",
-    "LastUpdatedSteamDB": "2022-03-31T03:52:03+02:00",
+    "LastUpdatedSteamDB": "2022-09-13T05:56:40+02:00",
     "LastUpdatedHere": "2022-05-24T09:52:30.161344262+02:00",
     "AppID": "1122730"
   },
@@ -5368,7 +5422,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-08-31T12:09:49.357457938+02:00",
-    "LastUpdatedSteamDB": "2022-08-30T10:51:24+02:00",
+    "LastUpdatedSteamDB": "2022-09-13T22:24:48+02:00",
     "LastUpdatedHere": "2022-08-31T12:09:49.357457938+02:00",
     "AppID": "1124180"
   },
@@ -5389,6 +5443,15 @@
     "LastUpdatedSteamDB": "2022-08-25T16:36:03+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.459660904+02:00",
     "AppID": "1124660"
+  },
+  "1125240": {
+    "Name": "Ancient Dungeon",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644962878+02:00",
+    "LastUpdatedSteamDB": "2021-10-22T00:54:59+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644962878+02:00",
+    "AppID": "1125240"
   },
   "1125330": {
     "Name": "Griefhelm",
@@ -5930,6 +5993,15 @@
     "LastUpdatedHere": "2022-06-24T12:33:00.989289864+02:00",
     "AppID": "1137970"
   },
+  "1138650": {
+    "Name": "Tower Princess",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.643151656+02:00",
+    "LastUpdatedSteamDB": "2022-09-08T18:52:44+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643151656+02:00",
+    "AppID": "1138650"
+  },
   "1138660": {
     "Name": "Black Book",
     "Status": "Playable",
@@ -6268,7 +6340,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-04T20:15:35.460223692+02:00",
-    "LastUpdatedSteamDB": "2021-12-01T21:21:30+01:00",
+    "LastUpdatedSteamDB": "2022-09-15T11:19:02+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.460223692+02:00",
     "AppID": "1147660"
   },
@@ -6367,7 +6439,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.453048809+02:00",
-    "LastUpdatedSteamDB": "2022-08-22T11:55:57+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T14:47:46+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.453048809+02:00",
     "AppID": "1149620"
   },
@@ -6484,7 +6556,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-04T20:15:35.463053136+02:00",
-    "LastUpdatedSteamDB": "2022-08-26T16:10:48+02:00",
+    "LastUpdatedSteamDB": "2022-09-13T15:34:36+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.463053136+02:00",
     "AppID": "1151340"
   },
@@ -6628,7 +6700,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.454337746+02:00",
-    "LastUpdatedSteamDB": "2022-09-05T11:27:36+02:00",
+    "LastUpdatedSteamDB": "2022-09-13T11:02:31+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.454337746+02:00",
     "AppID": "1154790"
   },
@@ -6874,6 +6946,15 @@
     "LastUpdatedSteamDB": "2021-09-16T13:45:15+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.45751668+02:00",
     "AppID": "1159680"
+  },
+  "1159860": {
+    "Name": "Dash Dash World",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.645263689+02:00",
+    "LastUpdatedSteamDB": "2021-12-06T18:19:03+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.645263689+02:00",
+    "AppID": "1159860"
   },
   "1160020": {
     "Name": "AshenForest",
@@ -7132,7 +7213,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-08-06T18:47:45.781780883+02:00",
-    "LastUpdatedSteamDB": "2020-05-01T23:21:55+02:00",
+    "LastUpdatedSteamDB": "2022-09-13T04:55:16+02:00",
     "LastUpdatedHere": "2022-08-06T18:47:45.781780883+02:00",
     "AppID": "1165870"
   },
@@ -7357,7 +7438,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.458329852+02:00",
-    "LastUpdatedSteamDB": "2022-08-25T16:56:58+02:00",
+    "LastUpdatedSteamDB": "2022-09-12T21:46:12+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.458329852+02:00",
     "AppID": "1172620"
   },
@@ -7640,6 +7721,15 @@
     "LastUpdatedHere": "2022-05-21T16:39:54.208323458+02:00",
     "AppID": "1178490"
   },
+  "1178780": {
+    "Name": "BattleGroupVR",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.645205231+02:00",
+    "LastUpdatedSteamDB": "2020-09-15T20:34:05+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.645205231+02:00",
+    "AppID": "1178780"
+  },
   "1178830": {
     "Name": "Bright Memory: Infinite",
     "Status": "Verified",
@@ -7798,7 +7888,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-07-13T10:18:15.791975839+02:00",
-    "LastUpdatedSteamDB": "2022-08-10T00:54:58+02:00",
+    "LastUpdatedSteamDB": "2022-09-16T00:27:44+02:00",
     "LastUpdatedHere": "2022-07-13T10:18:15.791975839+02:00",
     "AppID": "1183470"
   },
@@ -8662,7 +8752,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.457527227+02:00",
-    "LastUpdatedSteamDB": "2022-08-30T15:19:27+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T14:29:31+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.457527227+02:00",
     "AppID": "1206610"
   },
@@ -8926,6 +9016,15 @@
     "LastUpdatedSteamDB": "2021-12-14T21:15:25+01:00",
     "LastUpdatedHere": "2022-08-16T21:09:40.730359608+02:00",
     "AppID": "1213230"
+  },
+  "1213570": {
+    "Name": "Cave Quest",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.643639435+02:00",
+    "LastUpdatedSteamDB": "2022-09-08T12:51:46+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643639435+02:00",
+    "AppID": "1213570"
   },
   "1213700": {
     "Name": "Spirit of the North",
@@ -9220,7 +9319,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-07-19T16:20:32.265349277+02:00",
-    "LastUpdatedSteamDB": "2022-09-09T21:14:33+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T16:12:24+02:00",
     "LastUpdatedHere": "2022-07-19T16:20:32.265349277+02:00",
     "AppID": "1222040"
   },
@@ -9436,7 +9535,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.452508231+02:00",
-    "LastUpdatedSteamDB": "2022-09-09T15:46:20+02:00",
+    "LastUpdatedSteamDB": "2022-09-13T11:34:18+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.452508231+02:00",
     "AppID": "1227650"
   },
@@ -9638,6 +9737,15 @@
     "LastUpdatedHere": "2022-08-06T18:47:45.781933936+02:00",
     "AppID": "1232460"
   },
+  "1232570": {
+    "Name": "Paper Beast",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644972796+02:00",
+    "LastUpdatedSteamDB": "2021-12-16T18:16:12+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644972796+02:00",
+    "AppID": "1232570"
+  },
   "1232590": {
     "Name": "DREAMGATE",
     "Status": "Playable",
@@ -9763,6 +9871,15 @@
     "LastUpdatedSteamDB": "2020-01-28T23:05:49+01:00",
     "LastUpdatedHere": "2022-08-06T18:47:45.782231216+02:00",
     "AppID": "1234600"
+  },
+  "1234620": {
+    "Name": "Tinker Racers",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644660321+02:00",
+    "LastUpdatedSteamDB": "2020-12-11T19:20:08+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644660321+02:00",
+    "AppID": "1234620"
   },
   "1234730": {
     "Name": "HereSphere VR Video Player",
@@ -9980,6 +10097,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.463080095+02:00",
     "AppID": "1238880"
   },
+  "1239020": {
+    "Name": "TOGETHER BnB",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.64513909+02:00",
+    "LastUpdatedSteamDB": "2021-04-07T06:33:33+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.64513909+02:00",
+    "AppID": "1239020"
+  },
   "1239050": {
     "Name": "Mists of Aiden",
     "Status": "Playable",
@@ -10192,7 +10318,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.454428122+02:00",
-    "LastUpdatedSteamDB": "2022-04-14T13:04:05+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T11:03:21+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.454428122+02:00",
     "AppID": "1244460"
   },
@@ -10502,6 +10628,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.45297317+02:00",
     "AppID": "1252830"
   },
+  "1253190": {
+    "Name": "Warhammer 40,000: Dakka Squadron - Flyboyz Edition",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.644064077+02:00",
+    "LastUpdatedSteamDB": "2021-06-17T14:54:12+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644064077+02:00",
+    "AppID": "1253190"
+  },
   "1253920": {
     "Name": "Rogue Legacy 2",
     "Status": "Verified",
@@ -10552,7 +10687,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-08-16T21:09:40.730724466+02:00",
-    "LastUpdatedSteamDB": "2022-08-21T01:41:22+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T23:42:21+02:00",
     "LastUpdatedHere": "2022-08-16T21:09:40.730724466+02:00",
     "AppID": "1254670"
   },
@@ -10600,6 +10735,15 @@
     "LastUpdatedSteamDB": "2022-06-25T14:26:00+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.459877833+02:00",
     "AppID": "1255970"
+  },
+  "1256060": {
+    "Name": "Cosmodread",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.645017914+02:00",
+    "LastUpdatedSteamDB": "2021-03-02T14:00:04+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.645017914+02:00",
+    "AppID": "1256060"
   },
   "1256130": {
     "Name": "AnShi",
@@ -10720,11 +10864,11 @@
   },
   "1258040": {
     "Name": "Super Bernie World",
-    "Status": "Playable",
+    "Status": "Verified",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-08-31T12:09:49.357342895+02:00",
     "LastUpdatedSteamDB": "2021-08-02T06:08:55+02:00",
-    "LastUpdatedHere": "2022-08-31T12:09:49.357342895+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.641871865+02:00",
     "AppID": "1258040"
   },
   "1258080": {
@@ -10996,6 +11140,15 @@
     "LastUpdatedSteamDB": "2020-11-24T17:30:47+01:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.454686956+02:00",
     "AppID": "1263850"
+  },
+  "1263860": {
+    "Name": "Football Manager 2021 Touch",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.643619181+02:00",
+    "LastUpdatedSteamDB": "2020-12-03T16:16:36+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643619181+02:00",
+    "AppID": "1263860"
   },
   "1264250": {
     "Name": "Fishing: North Atlantic - Enhanced Edition",
@@ -11470,7 +11623,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.455430636+02:00",
-    "LastUpdatedSteamDB": "2022-08-08T16:03:29+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T17:20:37+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.455430636+02:00",
     "AppID": "1276390"
   },
@@ -11596,9 +11749,18 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-11T17:19:17.836602192+02:00",
-    "LastUpdatedSteamDB": "2021-12-08T01:28:05+01:00",
+    "LastUpdatedSteamDB": "2022-09-15T06:29:19+02:00",
     "LastUpdatedHere": "2022-05-11T17:19:17.836602192+02:00",
     "AppID": "1279260"
+  },
+  "1279270": {
+    "Name": "7 Girls War",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.643207949+02:00",
+    "LastUpdatedSteamDB": "2021-09-18T06:41:07+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643207949+02:00",
+    "AppID": "1279270"
   },
   "1279280": {
     "Name": "Welcome to the Adventurer Inn!",
@@ -11699,6 +11861,15 @@
     "LastUpdatedHere": "2022-07-13T10:18:15.78901207+02:00",
     "AppID": "1281790"
   },
+  "1281800": {
+    "Name": "Samsara Room",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.641225614+02:00",
+    "LastUpdatedSteamDB": "2020-04-27T22:24:00+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.641225614+02:00",
+    "AppID": "1281800"
+  },
   "1281930": {
     "Name": "tModLoader",
     "Status": "Playable",
@@ -11731,7 +11902,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-09-09T15:46:42.502182667+02:00",
-    "LastUpdatedSteamDB": "2022-09-05T19:11:00+02:00",
+    "LastUpdatedSteamDB": "2022-09-12T23:33:52+02:00",
     "LastUpdatedHere": "2022-09-09T15:46:42.502182667+02:00",
     "AppID": "1282410"
   },
@@ -12001,7 +12172,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-08-06T18:47:45.782995841+02:00",
-    "LastUpdatedSteamDB": "2022-03-04T19:27:38+01:00",
+    "LastUpdatedSteamDB": "2022-09-15T12:41:58+02:00",
     "LastUpdatedHere": "2022-08-06T18:47:45.782995841+02:00",
     "AppID": "1289520"
   },
@@ -12040,6 +12211,15 @@
     "LastUpdatedSteamDB": "2021-02-27T11:42:22+01:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.455398927+02:00",
     "AppID": "1290170"
+  },
+  "1290220": {
+    "Name": "Elasto Mania Remastered",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644472864+02:00",
+    "LastUpdatedSteamDB": "2022-01-31T10:16:56+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644472864+02:00",
+    "AppID": "1290220"
   },
   "1290270": {
     "Name": "Vampire: The Masquerade — Night Road",
@@ -12256,6 +12436,15 @@
     "LastUpdatedSteamDB": "2022-06-23T18:20:19+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.451832788+02:00",
     "AppID": "1295790"
+  },
+  "1295900": {
+    "Name": "Draconia",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.644394641+02:00",
+    "LastUpdatedSteamDB": "2021-12-27T15:49:46+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644394641+02:00",
+    "AppID": "1295900"
   },
   "1295920": {
     "Name": "The Mortuary Assistant",
@@ -13805,6 +13994,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.453179763+02:00",
     "AppID": "1345860"
   },
+  "1346010": {
+    "Name": "RiMS Racing",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.645282826+02:00",
+    "LastUpdatedSteamDB": "2021-12-06T15:20:52+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.645282826+02:00",
+    "AppID": "1346010"
+  },
   "1346070": {
     "Name": "Sign of Silence",
     "Status": "Unsupported",
@@ -13873,7 +14071,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-08-16T21:09:40.730369246+02:00",
-    "LastUpdatedSteamDB": "2022-09-09T16:03:07+02:00",
+    "LastUpdatedSteamDB": "2022-09-13T12:31:28+02:00",
     "LastUpdatedHere": "2022-08-16T21:09:40.730369246+02:00",
     "AppID": "1347970"
   },
@@ -13997,9 +14195,9 @@
   "1352930": {
     "Name": "HAAK",
     "Status": "Verified",
-    "PreviousStatus": "Playable",
+    "PreviousStatus": "Verified",
     "FirstSeen": "2022-07-13T10:18:15.791742719+02:00",
-    "LastUpdatedSteamDB": "2022-09-02T06:00:05+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T12:44:08+02:00",
     "LastUpdatedHere": "2022-09-13T12:27:41.576461353+02:00",
     "AppID": "1352930"
   },
@@ -14377,7 +14575,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-08-06T18:47:45.782432268+02:00",
-    "LastUpdatedSteamDB": "2021-11-17T14:07:10+01:00",
+    "LastUpdatedSteamDB": "2022-09-15T17:53:33+02:00",
     "LastUpdatedHere": "2022-08-06T18:47:45.782432268+02:00",
     "AppID": "1364390"
   },
@@ -14422,7 +14620,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.455913594+02:00",
-    "LastUpdatedSteamDB": "2022-06-22T12:30:16+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T15:04:59+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.455913594+02:00",
     "AppID": "1366540"
   },
@@ -14629,7 +14827,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-06T09:57:30.787188657+02:00",
-    "LastUpdatedSteamDB": "2022-09-06T17:06:52+02:00",
+    "LastUpdatedSteamDB": "2022-09-12T15:56:36+02:00",
     "LastUpdatedHere": "2022-05-06T09:57:30.787188657+02:00",
     "AppID": "1371690"
   },
@@ -14930,6 +15128,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.453968211+02:00",
     "AppID": "1380420"
   },
+  "1380910": {
+    "Name": "Stardeus",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.642231484+02:00",
+    "LastUpdatedSteamDB": "2022-09-07T15:09:34+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.642231484+02:00",
+    "AppID": "1380910"
+  },
   "1381070": {
     "Name": "Unyielding",
     "Status": "Playable",
@@ -15178,9 +15385,18 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-04T20:15:35.460970933+02:00",
-    "LastUpdatedSteamDB": "2022-07-11T10:16:45+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T12:35:58+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.460970933+02:00",
     "AppID": "1390700"
+  },
+  "1391280": {
+    "Name": "3D Hentai Chess",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.642168556+02:00",
+    "LastUpdatedSteamDB": "2022-06-13T07:51:38+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.642168556+02:00",
+    "AppID": "1391280"
   },
   "1391530": {
     "Name": "Mud and Blood",
@@ -15277,7 +15493,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-28T18:44:48.681754059+02:00",
-    "LastUpdatedSteamDB": "2022-05-12T22:13:30+02:00",
+    "LastUpdatedSteamDB": "2022-09-12T18:31:17+02:00",
     "LastUpdatedHere": "2022-05-28T18:44:48.681754059+02:00",
     "AppID": "1394130"
   },
@@ -15331,7 +15547,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-09-13T12:27:41.577185545+02:00",
-    "LastUpdatedSteamDB": "2022-05-19T23:53:48+02:00",
+    "LastUpdatedSteamDB": "2022-09-12T18:43:38+02:00",
     "LastUpdatedHere": "2022-09-13T12:27:41.577185545+02:00",
     "AppID": "1397790"
   },
@@ -15352,6 +15568,15 @@
     "LastUpdatedSteamDB": "2022-02-14T18:13:41+01:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.460344309+02:00",
     "AppID": "1398010"
+  },
+  "1398100": {
+    "Name": "Orwell's Animal Farm",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.641941917+02:00",
+    "LastUpdatedSteamDB": "2021-01-25T12:25:34+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.641941917+02:00",
+    "AppID": "1398100"
   },
   "1398390": {
     "Name": "SPACE / MECH / PILOT",
@@ -15442,6 +15667,15 @@
     "LastUpdatedSteamDB": "2021-08-10T09:13:31+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.452916039+02:00",
     "AppID": "1400870"
+  },
+  "1401590": {
+    "Name": "Disney Dreamlight Valley",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.644247623+02:00",
+    "LastUpdatedSteamDB": "2022-09-12T19:42:35+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644247623+02:00",
+    "AppID": "1401590"
   },
   "1401680": {
     "Name": "Lust from Beyond: Scarlet",
@@ -15781,7 +16015,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-11T17:19:17.836639768+02:00",
-    "LastUpdatedSteamDB": "2021-11-18T08:29:32+01:00",
+    "LastUpdatedSteamDB": "2022-09-15T11:31:17+02:00",
     "LastUpdatedHere": "2022-05-11T17:19:17.836639768+02:00",
     "AppID": "1413970"
   },
@@ -16091,6 +16325,15 @@
     "LastUpdatedHere": "2022-08-16T21:09:40.730226597+02:00",
     "AppID": "1424350"
   },
+  "1424630": {
+    "Name": "CosmoDreamer",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.643555764+02:00",
+    "LastUpdatedSteamDB": "2022-03-02T16:45:26+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643555764+02:00",
+    "AppID": "1424630"
+  },
   "1424980": {
     "Name": "The Solitaire Conspiracy",
     "Status": "Playable",
@@ -16144,6 +16387,15 @@
     "LastUpdatedSteamDB": "2022-07-28T08:12:37+02:00",
     "LastUpdatedHere": "2022-05-21T16:39:54.208934355+02:00",
     "AppID": "1427890"
+  },
+  "1428310": {
+    "Name": "The Test: Final Revelation",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.641210808+02:00",
+    "LastUpdatedSteamDB": "2022-08-12T20:57:12+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.641210808+02:00",
+    "AppID": "1428310"
   },
   "1428710": {
     "Name": "The Tarnishing of Juxtia",
@@ -16216,6 +16468,15 @@
     "LastUpdatedSteamDB": "2022-05-06T19:16:50+02:00",
     "LastUpdatedHere": "2022-05-11T17:19:17.836678949+02:00",
     "AppID": "1432910"
+  },
+  "1433010": {
+    "Name": "Tennis Manager 2021",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.644119322+02:00",
+    "LastUpdatedSteamDB": "2021-10-27T10:15:42+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644119322+02:00",
+    "AppID": "1433010"
   },
   "1433120": {
     "Name": "STAR WARS™: The Old Republic™ - Public Test Server",
@@ -16451,6 +16712,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.459409961+02:00",
     "AppID": "1443100"
   },
+  "1443820": {
+    "Name": "BustyBiz",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644781358+02:00",
+    "LastUpdatedSteamDB": "2021-05-12T13:19:50+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644781358+02:00",
+    "AppID": "1443820"
+  },
   "1444350": {
     "Name": "House",
     "Status": "Verified",
@@ -16658,6 +16928,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.456254424+02:00",
     "AppID": "1450830"
   },
+  "1451030": {
+    "Name": "Star Hunter DX",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.641966711+02:00",
+    "LastUpdatedSteamDB": "2021-06-08T15:44:02+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.641966711+02:00",
+    "AppID": "1451030"
+  },
   "1451080": {
     "Name": "DUNGEON ENCOUNTERS",
     "Status": "Unsupported",
@@ -16798,7 +17077,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.451952567+02:00",
-    "LastUpdatedSteamDB": "2022-09-08T16:38:35+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T21:17:23+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.451952567+02:00",
     "AppID": "1455630"
   },
@@ -16831,11 +17110,11 @@
   },
   "1456650": {
     "Name": "Pascal's Wager: Definitive Edition",
-    "Status": "Playable",
+    "Status": "Verified",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.457669495+02:00",
     "LastUpdatedSteamDB": "2021-02-20T13:26:51+01:00",
-    "LastUpdatedHere": "2022-05-04T20:15:35.457669495+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643167371+02:00",
     "AppID": "1456650"
   },
   "1456820": {
@@ -17302,7 +17581,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.451666284+02:00",
-    "LastUpdatedSteamDB": "2021-02-22T22:36:40+01:00",
+    "LastUpdatedSteamDB": "2022-09-15T22:41:14+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.451666284+02:00",
     "AppID": "1475080"
   },
@@ -17531,6 +17810,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.461075067+02:00",
     "AppID": "1481440"
   },
+  "1481780": {
+    "Name": "Dragon Fist: VR Kung Fu",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.645212355+02:00",
+    "LastUpdatedSteamDB": "2022-06-25T22:37:15+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.645212355+02:00",
+    "AppID": "1481780"
+  },
   "1482430": {
     "Name": "Simona's Requiem",
     "Status": "Verified",
@@ -17747,6 +18035,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.455255122+02:00",
     "AppID": "1489680"
   },
+  "1489850": {
+    "Name": "Dispersio 2",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.642086631+02:00",
+    "LastUpdatedSteamDB": "2020-12-09T17:41:11+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.642086631+02:00",
+    "AppID": "1489850"
+  },
   "1489970": {
     "Name": "Highrise City",
     "Status": "Unsupported",
@@ -17860,7 +18157,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.458219362+02:00",
-    "LastUpdatedSteamDB": "2022-06-15T16:52:26+02:00",
+    "LastUpdatedSteamDB": "2022-09-13T13:10:35+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.458219362+02:00",
     "AppID": "1493760"
   },
@@ -17935,6 +18232,15 @@
     "LastUpdatedSteamDB": "2021-12-16T16:44:30+01:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.462970164+02:00",
     "AppID": "1496250"
+  },
+  "1497000": {
+    "Name": "OceanCraft",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.64470502+02:00",
+    "LastUpdatedSteamDB": "2021-03-07T16:42:50+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.64470502+02:00",
+    "AppID": "1497000"
   },
   "1497120": {
     "Name": "Movavi Screen Recorder 22",
@@ -18142,6 +18448,15 @@
     "LastUpdatedSteamDB": "2022-05-26T18:02:53+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.458743737+02:00",
     "AppID": "1506830"
+  },
+  "1506850": {
+    "Name": "Cards \u0026 Tankards",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644490115+02:00",
+    "LastUpdatedSteamDB": "2022-09-02T09:28:16+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644490115+02:00",
+    "AppID": "1506850"
   },
   "1506980": {
     "Name": "葬花·暗黑桃花源",
@@ -18511,6 +18826,15 @@
     "LastUpdatedSteamDB": "2021-06-25T13:49:11+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.454115089+02:00",
     "AppID": "1516400"
+  },
+  "1516750": {
+    "Name": "Alien Marauder",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.644139367+02:00",
+    "LastUpdatedSteamDB": "2022-01-07T08:39:23+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644139367+02:00",
+    "AppID": "1516750"
   },
   "15170": {
     "Name": "Heroes of Might \u0026 Magic V",
@@ -19273,7 +19597,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.454280126+02:00",
-    "LastUpdatedSteamDB": "2022-09-01T02:27:24+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T19:19:36+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.454280126+02:00",
     "AppID": "1549970"
   },
@@ -19336,7 +19660,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.452043082+02:00",
-    "LastUpdatedSteamDB": "2022-02-14T11:00:40+01:00",
+    "LastUpdatedSteamDB": "2022-09-15T06:07:00+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.452043082+02:00",
     "AppID": "1551520"
   },
@@ -19555,6 +19879,15 @@
     "LastUpdatedSteamDB": "2022-07-07T17:51:10+02:00",
     "LastUpdatedHere": "2022-08-31T12:09:49.35741772+02:00",
     "AppID": "1562700"
+  },
+  "1563160": {
+    "Name": "Lust for Darkness VR",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.645156341+02:00",
+    "LastUpdatedSteamDB": "2021-11-15T18:59:54+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.645156341+02:00",
+    "AppID": "1563160"
   },
   "1563180": {
     "Name": "Internet Cafe Simulator 2",
@@ -19838,9 +20171,9 @@
   "1574250": {
     "Name": "SPOOKWARE",
     "Status": "Verified",
-    "PreviousStatus": "Playable",
+    "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.45486247+02:00",
-    "LastUpdatedSteamDB": "2022-04-12T01:31:55+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T22:01:55+02:00",
     "LastUpdatedHere": "2022-08-06T18:47:45.779665159+02:00",
     "AppID": "1574250"
   },
@@ -19960,6 +20293,15 @@
     "LastUpdatedSteamDB": "2022-08-01T01:51:52+02:00",
     "LastUpdatedHere": "2022-05-28T18:44:48.682304767+02:00",
     "AppID": "1578650"
+  },
+  "1578950": {
+    "Name": "Lady in Mystery",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.643264242+02:00",
+    "LastUpdatedSteamDB": "2021-05-14T21:41:59+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643264242+02:00",
+    "AppID": "1578950"
   },
   "1579260": {
     "Name": "Disc Golf Valley VR",
@@ -20105,6 +20447,15 @@
     "LastUpdatedHere": "2022-08-06T18:47:45.780849269+02:00",
     "AppID": "1584810"
   },
+  "1584840": {
+    "Name": "AGAINST",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.645108569+02:00",
+    "LastUpdatedSteamDB": "2022-08-29T11:57:19+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.645108569+02:00",
+    "AppID": "1584840"
+  },
   "1585020": {
     "Name": "JUNKPUNK",
     "Status": "Playable",
@@ -20122,6 +20473,15 @@
     "LastUpdatedSteamDB": "2022-06-23T06:23:36+02:00",
     "LastUpdatedHere": "2022-08-06T18:47:45.781496236+02:00",
     "AppID": "1585440"
+  },
+  "1585570": {
+    "Name": "Workplace Rhapsody",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.643632311+02:00",
+    "LastUpdatedSteamDB": "2022-09-02T06:44:05+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643632311+02:00",
+    "AppID": "1585570"
   },
   "1585700": {
     "Name": "Trap Genesis",
@@ -20218,7 +20578,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.453665725+02:00",
-    "LastUpdatedSteamDB": "2022-08-29T14:52:56+02:00",
+    "LastUpdatedSteamDB": "2022-09-13T16:05:28+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.453665725+02:00",
     "AppID": "1590160"
   },
@@ -20384,6 +20744,15 @@
     "LastUpdatedHere": "2022-06-24T12:33:00.988708926+02:00",
     "AppID": "1595020"
   },
+  "1595030": {
+    "Name": "Bad Memories",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.643661017+02:00",
+    "LastUpdatedSteamDB": "2021-04-07T05:55:45+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643661017+02:00",
+    "AppID": "1595030"
+  },
   "1595280": {
     "Name": "卡牌缔造者-CardMaker",
     "Status": "Verified",
@@ -20515,7 +20884,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-09-13T12:27:41.57635474+02:00",
-    "LastUpdatedSteamDB": "2022-08-08T18:54:01+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T19:50:42+02:00",
     "LastUpdatedHere": "2022-09-13T12:27:41.57635474+02:00",
     "AppID": "1599600"
   },
@@ -20830,7 +21199,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.458480432+02:00",
-    "LastUpdatedSteamDB": "2022-09-08T14:49:22+02:00",
+    "LastUpdatedSteamDB": "2022-09-13T08:08:37+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.458480432+02:00",
     "AppID": "1611600"
   },
@@ -20866,7 +21235,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-07-13T10:18:15.79205597+02:00",
-    "LastUpdatedSteamDB": "2022-07-05T11:17:57+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T06:33:21+02:00",
     "LastUpdatedHere": "2022-07-13T10:18:15.79205597+02:00",
     "AppID": "1612780"
   },
@@ -20920,7 +21289,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-21T16:39:54.207700269+02:00",
-    "LastUpdatedSteamDB": "2022-04-13T09:33:37+02:00",
+    "LastUpdatedSteamDB": "2022-09-13T09:27:20+02:00",
     "LastUpdatedHere": "2022-05-21T16:39:54.207700269+02:00",
     "AppID": "1617030"
   },
@@ -21815,6 +22184,15 @@
     "LastUpdatedHere": "2022-05-28T18:44:48.682627719+02:00",
     "AppID": "1665500"
   },
+  "1667130": {
+    "Name": "Beautiful Mystic Defenders",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.643714446+02:00",
+    "LastUpdatedSteamDB": "2022-01-03T21:16:30+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643714446+02:00",
+    "AppID": "1667130"
+  },
   "1667270": {
     "Name": "Lone McLonegan : A Western Adventure",
     "Status": "Verified",
@@ -21901,7 +22279,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-04T20:15:35.460047131+02:00",
-    "LastUpdatedSteamDB": "2022-08-10T15:41:24+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T09:01:49+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.460047131+02:00",
     "AppID": "1671200"
   },
@@ -22018,7 +22396,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-04T20:15:35.461436989+02:00",
-    "LastUpdatedSteamDB": "2022-07-31T13:55:37+02:00",
+    "LastUpdatedSteamDB": "2022-09-13T22:44:02+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.461436989+02:00",
     "AppID": "1676380"
   },
@@ -22337,6 +22715,15 @@
     "LastUpdatedHere": "2022-08-31T12:09:49.356227147+02:00",
     "AppID": "1690650"
   },
+  "1690730": {
+    "Name": "Incremental Cubes",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644790786+02:00",
+    "LastUpdatedSteamDB": "2021-09-03T04:09:02+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644790786+02:00",
+    "AppID": "1690730"
+  },
   "1691110": {
     "Name": "TBOT - Twitch Bot",
     "Status": "Unsupported",
@@ -22366,11 +22753,11 @@
   },
   "1692250": {
     "Name": "F1® 22",
-    "Status": "Verified",
+    "Status": "Unsupported",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-06-24T12:33:00.988467129+02:00",
-    "LastUpdatedSteamDB": "2022-09-01T19:02:26+02:00",
-    "LastUpdatedHere": "2022-06-24T12:33:00.988467129+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T17:30:28+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.64533416+02:00",
     "AppID": "1692250"
   },
   "1692700": {
@@ -22657,7 +23044,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-08-06T18:47:45.781667042+02:00",
-    "LastUpdatedSteamDB": "2022-02-18T16:35:11+01:00",
+    "LastUpdatedSteamDB": "2022-09-13T18:45:44+02:00",
     "LastUpdatedHere": "2022-08-06T18:47:45.781667042+02:00",
     "AppID": "1704540"
   },
@@ -23719,9 +24106,18 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-06-24T12:33:00.988678268+02:00",
-    "LastUpdatedSteamDB": "2022-03-17T14:05:06+01:00",
+    "LastUpdatedSteamDB": "2022-09-12T17:16:56+02:00",
     "LastUpdatedHere": "2022-06-24T12:33:00.988678268+02:00",
     "AppID": "1747650"
+  },
+  "1747830": {
+    "Name": "Blossom Tales II: The Minotaur Prince",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.642700265+02:00",
+    "LastUpdatedSteamDB": "2022-08-17T09:44:11+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.642700265+02:00",
+    "AppID": "1747830"
   },
   "17480": {
     "Name": "Command \u0026 Conquer: Red Alert 3",
@@ -24110,12 +24506,21 @@
     "LastUpdatedHere": "2022-05-11T17:19:17.836312625+02:00",
     "AppID": "1767320"
   },
+  "1767560": {
+    "Name": "Pro Cycling Manager 2022",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.645308947+02:00",
+    "LastUpdatedSteamDB": "2022-08-12T14:17:53+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.645308947+02:00",
+    "AppID": "1767560"
+  },
   "1768640": {
     "Name": "Leap of Faith",
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-08-06T18:47:45.781274797+02:00",
-    "LastUpdatedSteamDB": "2022-09-08T15:55:38+02:00",
+    "LastUpdatedSteamDB": "2022-09-11T10:24:08+02:00",
     "LastUpdatedHere": "2022-08-06T18:47:45.781274797+02:00",
     "AppID": "1768640"
   },
@@ -24142,7 +24547,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-13T10:07:29.524131647+02:00",
-    "LastUpdatedSteamDB": "2022-03-06T11:23:06+01:00",
+    "LastUpdatedSteamDB": "2022-09-13T05:23:30+02:00",
     "LastUpdatedHere": "2022-05-13T10:07:29.524131647+02:00",
     "AppID": "1770400"
   },
@@ -24226,6 +24631,15 @@
     "LastUpdatedSteamDB": "2021-10-15T17:16:17+02:00",
     "LastUpdatedHere": "2022-05-28T18:44:48.68272899+02:00",
     "AppID": "1776650"
+  },
+  "1777750": {
+    "Name": "Ninki Seiyuu: How to Make a Pop Voice Actress",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.64529889+02:00",
+    "LastUpdatedSteamDB": "2021-10-14T06:22:39+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.64529889+02:00",
+    "AppID": "1777750"
   },
   "1778950": {
     "Name": "Stalker in black",
@@ -24317,6 +24731,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.454649312+02:00",
     "AppID": "1782210"
   },
+  "1782330": {
+    "Name": "Green Hell VR",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.645271721+02:00",
+    "LastUpdatedSteamDB": "2022-08-17T12:48:48+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.645271721+02:00",
+    "AppID": "1782330"
+  },
   "1783110": {
     "Name": "Chasing Sunsets",
     "Status": "Playable",
@@ -24343,6 +24766,15 @@
     "LastUpdatedSteamDB": "2022-05-23T22:16:29+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.455361352+02:00",
     "AppID": "1787160"
+  },
+  "1787190": {
+    "Name": "Hamster Blitz!",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.641992553+02:00",
+    "LastUpdatedSteamDB": "2022-02-11T00:58:21+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.641992553+02:00",
+    "AppID": "1787190"
   },
   "1787470": {
     "Name": "Snake Pit",
@@ -24601,7 +25033,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-09-01T12:19:15.585795916+02:00",
-    "LastUpdatedSteamDB": "2022-09-09T10:45:23+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T10:18:40+02:00",
     "LastUpdatedHere": "2022-09-01T12:19:15.585795916+02:00",
     "AppID": "1797880"
   },
@@ -24763,7 +25195,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-04T20:15:35.459652313+02:00",
-    "LastUpdatedSteamDB": "2022-01-28T00:30:04+01:00",
+    "LastUpdatedSteamDB": "2022-09-16T01:49:55+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.459652313+02:00",
     "AppID": "1807480"
   },
@@ -24829,6 +25261,15 @@
     "LastUpdatedSteamDB": "2019-06-13T16:40:25+02:00",
     "LastUpdatedHere": "2022-06-24T12:33:00.989114693+02:00",
     "AppID": "18110"
+  },
+  "1811260": {
+    "Name": "EA SPORTS™ FIFA 23",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.645338979+02:00",
+    "LastUpdatedSteamDB": "2022-08-22T12:50:08+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.645338979+02:00",
+    "AppID": "1811260"
   },
   "1812090": {
     "Name": "Escape Academy",
@@ -25429,7 +25870,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-08-31T12:09:49.35980111+02:00",
-    "LastUpdatedSteamDB": "2022-05-31T08:42:42+02:00",
+    "LastUpdatedSteamDB": "2022-09-12T05:56:25+02:00",
     "LastUpdatedHere": "2022-08-31T12:09:49.35980111+02:00",
     "AppID": "1840350"
   },
@@ -25784,6 +26225,15 @@
     "LastUpdatedHere": "2022-08-16T21:09:40.730791452+02:00",
     "AppID": "1860550"
   },
+  "1860600": {
+    "Name": "The World According to Girl",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.642047659+02:00",
+    "LastUpdatedSteamDB": "2022-02-23T07:04:31+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.642047659+02:00",
+    "AppID": "1860600"
+  },
   "1860750": {
     "Name": "UnnamedGame RPG",
     "Status": "Verified",
@@ -26059,7 +26509,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.453843892+02:00",
-    "LastUpdatedSteamDB": "2022-03-18T13:42:40+01:00",
+    "LastUpdatedSteamDB": "2022-09-15T06:29:18+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.453843892+02:00",
     "AppID": "1874170"
   },
@@ -26818,6 +27268,15 @@
     "LastUpdatedSteamDB": "2022-05-22T17:29:54+02:00",
     "LastUpdatedHere": "2022-08-08T22:28:44.378567139+02:00",
     "AppID": "1961190"
+  },
+  "1962450": {
+    "Name": "RitualSummon",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.644056324+02:00",
+    "LastUpdatedSteamDB": "2022-05-14T14:09:05+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644056324+02:00",
+    "AppID": "1962450"
   },
   "1966900": {
     "Name": "20 Minutes Till Dawn",
@@ -28412,6 +28871,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.452575838+02:00",
     "AppID": "217200"
   },
+  "217270": {
+    "Name": "Karateka",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644804266+02:00",
+    "LastUpdatedSteamDB": "2019-11-14T17:36:35+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644804266+02:00",
+    "AppID": "217270"
+  },
   "217290": {
     "Name": "Din's Curse",
     "Status": "Playable",
@@ -28429,6 +28897,15 @@
     "LastUpdatedSteamDB": "2019-09-18T18:10:35+02:00",
     "LastUpdatedHere": "2022-05-11T17:19:17.837481789+02:00",
     "AppID": "217750"
+  },
+  "217790": {
+    "Name": "Dogfight 1942",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644728836+02:00",
+    "LastUpdatedSteamDB": "2019-06-25T14:23:45+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644728836+02:00",
+    "AppID": "217790"
   },
   "21780": {
     "Name": "Driver® Parallel Lines",
@@ -28795,7 +29272,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.45487993+02:00",
-    "LastUpdatedSteamDB": "2020-10-12T16:38:28+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T21:52:06+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.45487993+02:00",
     "AppID": "22230"
   },
@@ -28879,6 +29356,15 @@
     "LastUpdatedSteamDB": "2019-10-01T21:57:01+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.455969049+02:00",
     "AppID": "22320"
+  },
+  "223220": {
+    "Name": "Giana Sisters: Twisted Dreams",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.643098856+02:00",
+    "LastUpdatedSteamDB": "2019-08-29T11:45:58+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643098856+02:00",
+    "AppID": "223220"
   },
   "223280": {
     "Name": "Cut the Rope",
@@ -29186,6 +29672,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.459424768+02:00",
     "AppID": "225320"
   },
+  "225360": {
+    "Name": "DARK",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644871524+02:00",
+    "LastUpdatedSteamDB": "2019-11-04T17:00:08+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644871524+02:00",
+    "AppID": "225360"
+  },
   "225540": {
     "Name": "Just Cause™ 3",
     "Status": "Playable",
@@ -29290,7 +29785,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-09-09T15:46:42.50057671+02:00",
-    "LastUpdatedSteamDB": "2019-11-15T16:26:37+01:00",
+    "LastUpdatedSteamDB": "2022-09-15T16:22:51+02:00",
     "LastUpdatedHere": "2022-09-09T15:46:42.50057671+02:00",
     "AppID": "2270"
   },
@@ -29474,6 +29969,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.461174243+02:00",
     "AppID": "229870"
   },
+  "229890": {
+    "Name": "Joe Danger",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.645088594+02:00",
+    "LastUpdatedSteamDB": "2019-06-19T09:40:06+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.645088594+02:00",
+    "AppID": "229890"
+  },
   "2300": {
     "Name": "DOOM II",
     "Status": "Verified",
@@ -29500,6 +30004,15 @@
     "LastUpdatedSteamDB": "2019-09-17T18:31:40+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.454805269+02:00",
     "AppID": "230230"
+  },
+  "230290": {
+    "Name": "Universe Sandbox",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.644216193+02:00",
+    "LastUpdatedSteamDB": "2020-03-15T00:08:21+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644216193+02:00",
+    "AppID": "230290"
   },
   "230330": {
     "Name": "FINAL FANTASY® XI: Ultimate Collection Seekers Edition",
@@ -29581,6 +30094,15 @@
     "LastUpdatedSteamDB": "2019-11-04T20:06:53+01:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.454852273+02:00",
     "AppID": "2320"
+  },
+  "232010": {
+    "Name": "Euro Truck Simulator",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.643692446+02:00",
+    "LastUpdatedSteamDB": "2021-07-02T16:02:03+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643692446+02:00",
+    "AppID": "232010"
   },
   "232090": {
     "Name": "Killing Floor 2",
@@ -29983,7 +30505,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.453805479+02:00",
-    "LastUpdatedSteamDB": "2014-01-10T01:31:16+01:00",
+    "LastUpdatedSteamDB": "2022-09-13T07:33:49+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.453805479+02:00",
     "AppID": "235460"
   },
@@ -30037,7 +30559,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.451860026+02:00",
-    "LastUpdatedSteamDB": "2022-09-02T14:45:02+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T15:04:34+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.451860026+02:00",
     "AppID": "236390"
   },
@@ -30059,12 +30581,21 @@
     "LastUpdatedHere": "2022-05-11T17:19:17.83644386+02:00",
     "AppID": "236470"
   },
+  "236690": {
+    "Name": "Blood Bowl 2",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.644040191+02:00",
+    "LastUpdatedSteamDB": "2021-12-15T10:19:06+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644040191+02:00",
+    "AppID": "236690"
+  },
   "236850": {
     "Name": "Europa Universalis IV",
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-04T20:15:35.462917643+02:00",
-    "LastUpdatedSteamDB": "2022-08-25T14:59:07+02:00",
+    "LastUpdatedSteamDB": "2022-09-13T08:55:25+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.462917643+02:00",
     "AppID": "236850"
   },
@@ -30100,7 +30631,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-04T20:15:35.459835509+02:00",
-    "LastUpdatedSteamDB": "2022-08-31T22:24:12+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T20:25:37+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.459835509+02:00",
     "AppID": "237310"
   },
@@ -30833,6 +31364,15 @@
     "LastUpdatedHere": "2022-08-06T18:47:45.782258817+02:00",
     "AppID": "245730"
   },
+  "246070": {
+    "Name": "Hack 'n' Slash",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.643199848+02:00",
+    "LastUpdatedSteamDB": "2022-07-26T00:03:46+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643199848+02:00",
+    "AppID": "246070"
+  },
   "246110": {
     "Name": "MASSIVE CHALICE",
     "Status": "Unsupported",
@@ -31067,6 +31607,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.459548737+02:00",
     "AppID": "24840"
   },
+  "248470": {
+    "Name": "Doorways: Prelude",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644831435+02:00",
+    "LastUpdatedSteamDB": "2021-05-23T21:37:13+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644831435+02:00",
+    "AppID": "248470"
+  },
   "248530": {
     "Name": "Depth Hunter 2: Deep Dive",
     "Status": "Playable",
@@ -31112,6 +31661,15 @@
     "LastUpdatedHere": "2022-05-16T20:05:15.269059053+02:00",
     "AppID": "248820"
   },
+  "248970": {
+    "Name": "Vector",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644568688+02:00",
+    "LastUpdatedSteamDB": "2013-12-16T08:58:20+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644568688+02:00",
+    "AppID": "248970"
+  },
   "249050": {
     "Name": "Dungeon of the ENDLESS™",
     "Status": "Playable",
@@ -31147,6 +31705,15 @@
     "LastUpdatedSteamDB": "2014-07-22T21:19:40+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.45672048+02:00",
     "AppID": "24960"
+  },
+  "249680": {
+    "Name": "Marlow Briggs and the Mask of Death",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.641473764+02:00",
+    "LastUpdatedSteamDB": "2014-05-30T00:30:16+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.641473764+02:00",
+    "AppID": "249680"
   },
   "24980": {
     "Name": "Mass Effect 2 (2010)",
@@ -31291,6 +31858,15 @@
     "LastUpdatedSteamDB": "2020-04-28T18:05:04+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.452164259+02:00",
     "AppID": "250680"
+  },
+  "250700": {
+    "Name": "Super Time Force Ultra",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.64254298+02:00",
+    "LastUpdatedSteamDB": "2019-10-30T17:34:42+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.64254298+02:00",
+    "AppID": "250700"
   },
   "250760": {
     "Name": "Shovel Knight: Treasure Trove",
@@ -31706,6 +32282,15 @@
     "LastUpdatedHere": "2022-08-06T18:47:45.782270058+02:00",
     "AppID": "254080"
   },
+  "254320": {
+    "Name": "Duskers",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.643902112+02:00",
+    "LastUpdatedSteamDB": "2021-12-13T21:06:40+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643902112+02:00",
+    "AppID": "254320"
+  },
   "254370": {
     "Name": "Aquanox Deep Descent",
     "Status": "Unsupported",
@@ -31723,6 +32308,15 @@
     "LastUpdatedSteamDB": "2014-11-05T13:28:22+01:00",
     "LastUpdatedHere": "2022-08-06T18:47:45.780780122+02:00",
     "AppID": "254440"
+  },
+  "254460": {
+    "Name": "Obscure",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644451003+02:00",
+    "LastUpdatedSteamDB": "2013-09-20T18:59:42+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644451003+02:00",
+    "AppID": "254460"
   },
   "254480": {
     "Name": "Obscure II (Obscure: The Aftermath)",
@@ -31840,6 +32434,15 @@
     "LastUpdatedSteamDB": "2019-07-11T13:35:22+02:00",
     "LastUpdatedHere": "2022-08-06T18:47:45.781724819+02:00",
     "AppID": "256010"
+  },
+  "256190": {
+    "Name": "Enemy Front",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.643183155+02:00",
+    "LastUpdatedSteamDB": "2019-06-25T14:26:30+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643183155+02:00",
+    "AppID": "256190"
   },
   "256290": {
     "Name": "Child of Light",
@@ -33907,7 +34510,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.455180182+02:00",
-    "LastUpdatedSteamDB": "2022-07-29T03:04:20+02:00",
+    "LastUpdatedSteamDB": "2022-08-19T21:03:00+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.455180182+02:00",
     "AppID": "289070"
   },
@@ -34766,6 +35369,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.454277263+02:00",
     "AppID": "303290"
   },
+  "303310": {
+    "Name": "The House in Fata Morgana",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.643825426+02:00",
+    "LastUpdatedSteamDB": "2022-09-12T15:39:02+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643825426+02:00",
+    "AppID": "303310"
+  },
   "303430": {
     "Name": "Roundabout",
     "Status": "Verified",
@@ -35041,7 +35653,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.455387683+02:00",
-    "LastUpdatedSteamDB": "2022-09-08T01:59:49+02:00",
+    "LastUpdatedSteamDB": "2022-09-13T03:24:02+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.455387683+02:00",
     "AppID": "308600"
   },
@@ -35333,6 +35945,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.451835581+02:00",
     "AppID": "31240"
   },
+  "312510": {
+    "Name": "Mega Coin Squad",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.643091802+02:00",
+    "LastUpdatedSteamDB": "2014-08-06T19:07:03+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643091802+02:00",
+    "AppID": "312510"
+  },
   "312520": {
     "Name": "Rain World",
     "Status": "Playable",
@@ -35476,6 +36097,15 @@
     "LastUpdatedSteamDB": "2021-02-26T13:15:24+01:00",
     "LastUpdatedHere": "2022-08-06T18:47:45.782160686+02:00",
     "AppID": "313240"
+  },
+  "313340": {
+    "Name": "Mountain",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.643544659+02:00",
+    "LastUpdatedSteamDB": "2020-02-14T03:00:28+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643544659+02:00",
+    "AppID": "313340"
   },
   "313400": {
     "Name": "REVOLVER360 RE:ACTOR",
@@ -36490,7 +37120,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.457644282+02:00",
-    "LastUpdatedSteamDB": "2022-06-28T12:18:52+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T11:58:39+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.457644282+02:00",
     "AppID": "327070"
   },
@@ -37435,7 +38065,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-06-24T12:33:00.989202389+02:00",
-    "LastUpdatedSteamDB": "2022-08-18T03:32:42+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T08:06:15+02:00",
     "LastUpdatedHere": "2022-06-24T12:33:00.989202389+02:00",
     "AppID": "339610"
   },
@@ -38636,6 +39266,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.455966744+02:00",
     "AppID": "35700"
   },
+  "35720": {
+    "Name": "Trine 2: Complete Story",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.643804473+02:00",
+    "LastUpdatedSteamDB": "2021-05-05T15:45:24+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643804473+02:00",
+    "AppID": "35720"
+  },
   "357340": {
     "Name": "Cobalt",
     "Status": "Verified",
@@ -38710,11 +39349,11 @@
   },
   "359050": {
     "Name": "Shower With Your Dad Simulator 2015: Do You Still Shower With Your Dad",
-    "Status": "Unsupported",
+    "Status": "Playable",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-04T20:15:35.458836348+02:00",
     "LastUpdatedSteamDB": "2019-10-30T01:15:30+01:00",
-    "LastUpdatedHere": "2022-05-04T20:15:35.458836348+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643425997+02:00",
     "AppID": "359050"
   },
   "359100": {
@@ -39028,7 +39667,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.455938318+02:00",
-    "LastUpdatedSteamDB": "2021-09-15T19:13:00+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T22:18:32+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.455938318+02:00",
     "AppID": "362890"
   },
@@ -39373,6 +40012,15 @@
     "LastUpdatedSteamDB": "2022-07-01T19:57:15+02:00",
     "LastUpdatedHere": "2022-07-13T10:18:15.792340156+02:00",
     "AppID": "368080"
+  },
+  "368160": {
+    "Name": "WORLD END ECONOMiCA episode.02",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.642476281+02:00",
+    "LastUpdatedSteamDB": "2019-09-04T20:08:58+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.642476281+02:00",
+    "AppID": "368160"
   },
   "368220": {
     "Name": "Close Combat - Panthers in the Fog",
@@ -39941,6 +40589,15 @@
     "LastUpdatedHere": "2022-07-13T10:18:15.792760639+02:00",
     "AppID": "377520"
   },
+  "377680": {
+    "Name": "Sakura Beach",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-09-16T12:45:49.641843649+02:00",
+    "LastUpdatedSteamDB": "2019-11-04T14:46:01+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.641843649+02:00",
+    "AppID": "377680"
+  },
   "377840": {
     "Name": "FINAL FANTASY IX",
     "Status": "Unsupported",
@@ -40240,11 +40897,11 @@
   },
   "383980": {
     "Name": "Rivals of Aether",
-    "Status": "Unsupported",
+    "Status": "Verified",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-04T20:15:35.458811833+02:00",
     "LastUpdatedSteamDB": "2022-02-23T20:12:37+01:00",
-    "LastUpdatedHere": "2022-05-04T20:15:35.458811833+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643230369+02:00",
     "AppID": "383980"
   },
   "38400": {
@@ -41165,6 +41822,15 @@
     "LastUpdatedHere": "2022-08-06T18:47:45.780112396+02:00",
     "AppID": "396710"
   },
+  "396750": {
+    "Name": "EVERSPACE™",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.644294487+02:00",
+    "LastUpdatedSteamDB": "2020-09-19T12:37:07+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644294487+02:00",
+    "AppID": "396750"
+  },
   "39680": {
     "Name": "The Guild II Renaissance",
     "Status": "Unsupported",
@@ -41809,7 +42475,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-07-13T10:18:15.789806779+02:00",
-    "LastUpdatedSteamDB": "2022-07-12T09:04:47+02:00",
+    "LastUpdatedSteamDB": "2022-09-13T08:06:25+02:00",
     "LastUpdatedHere": "2022-07-13T10:18:15.789806779+02:00",
     "AppID": "407720"
   },
@@ -43132,7 +43798,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.454857581+02:00",
-    "LastUpdatedSteamDB": "2022-08-08T17:47:47+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T19:05:45+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.454857581+02:00",
     "AppID": "431240"
   },
@@ -43280,6 +43946,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.455911219+02:00",
     "AppID": "433340"
   },
+  "433350": {
+    "Name": "BlackShot: Mercenary Warfare FPS",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.6448644+02:00",
+    "LastUpdatedSteamDB": "2020-06-24T05:32:46+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.6448644+02:00",
+    "AppID": "433350"
+  },
   "433530": {
     "Name": "Heliborne Collection",
     "Status": "Playable",
@@ -43348,7 +44023,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-07-13T10:18:15.791713254+02:00",
-    "LastUpdatedSteamDB": "2020-10-12T16:38:55+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T21:29:44+02:00",
     "LastUpdatedHere": "2022-07-13T10:18:15.791713254+02:00",
     "AppID": "434460"
   },
@@ -43391,9 +44066,9 @@
   "435150": {
     "Name": "Divinity: Original Sin 2 - Definitive Edition",
     "Status": "Verified",
-    "PreviousStatus": "Playable",
+    "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.458563195+02:00",
-    "LastUpdatedSteamDB": "2020-12-11T21:20:08+01:00",
+    "LastUpdatedSteamDB": "2022-08-16T19:52:17+02:00",
     "LastUpdatedHere": "2022-06-24T12:33:00.988316004+02:00",
     "AppID": "435150"
   },
@@ -43954,6 +44629,15 @@
     "LastUpdatedSteamDB": "2016-06-01T03:12:04+02:00",
     "LastUpdatedHere": "2022-05-21T16:39:54.209139757+02:00",
     "AppID": "446390"
+  },
+  "446770": {
+    "Name": "Skeet: VR Target Shooting",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644766551+02:00",
+    "LastUpdatedSteamDB": "2016-03-26T16:24:13+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644766551+02:00",
+    "AppID": "446770"
   },
   "446790": {
     "Name": "Diluvion: Resubmerged",
@@ -44590,7 +45274,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.451245695+02:00",
-    "LastUpdatedSteamDB": "2022-09-08T18:54:02+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T19:51:09+02:00",
     "LastUpdatedHere": "2022-07-13T10:18:15.790993827+02:00",
     "AppID": "459820"
   },
@@ -45949,7 +46633,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.458398368+02:00",
-    "LastUpdatedSteamDB": "2022-08-30T13:55:47+02:00",
+    "LastUpdatedSteamDB": "2022-09-12T11:13:15+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.458398368+02:00",
     "AppID": "492720"
   },
@@ -46519,6 +47203,15 @@
     "LastUpdatedSteamDB": "2022-03-28T04:51:07+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.459824614+02:00",
     "AppID": "503620"
+  },
+  "503770": {
+    "Name": "Elven Assassin",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.645050809+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T16:41:02+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.645050809+02:00",
+    "AppID": "503770"
   },
   "503940": {
     "Name": "Railway Empire",
@@ -47132,6 +47825,15 @@
     "LastUpdatedHere": "2022-09-09T15:46:42.500021059+02:00",
     "AppID": "519860"
   },
+  "520010": {
+    "Name": "Climbey",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644521544+02:00",
+    "LastUpdatedSteamDB": "2019-06-14T11:04:32+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644521544+02:00",
+    "AppID": "520010"
+  },
   "520440": {
     "Name": "GUILTY GEAR Xrd -REVELATOR-",
     "Status": "Unsupported",
@@ -47401,6 +48103,15 @@
     "LastUpdatedSteamDB": "2020-10-20T19:24:37+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.461288156+02:00",
     "AppID": "526140"
+  },
+  "526160": {
+    "Name": "The Wild Eight",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.644336811+02:00",
+    "LastUpdatedSteamDB": "2021-11-26T12:13:43+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644336811+02:00",
+    "AppID": "526160"
   },
   "526490": {
     "Name": "Higurashi When They Cry Hou - Ch.4 Himatsubushi",
@@ -47731,7 +48442,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-21T16:39:54.208669659+02:00",
-    "LastUpdatedSteamDB": "2022-08-29T12:52:32+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T14:34:54+02:00",
     "LastUpdatedHere": "2022-05-21T16:39:54.208669659+02:00",
     "AppID": "534380"
   },
@@ -47938,7 +48649,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.451577096+02:00",
-    "LastUpdatedSteamDB": "2022-07-12T08:44:26+02:00",
+    "LastUpdatedSteamDB": "2022-09-13T08:04:03+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.451577096+02:00",
     "AppID": "540610"
   },
@@ -48163,7 +48874,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.455916038+02:00",
-    "LastUpdatedSteamDB": "2022-09-01T10:39:22+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T09:54:46+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.455916038+02:00",
     "AppID": "548430"
   },
@@ -48193,6 +48904,15 @@
     "LastUpdatedSteamDB": "2020-09-02T22:16:29+02:00",
     "LastUpdatedHere": "2022-05-24T09:52:30.160984849+02:00",
     "AppID": "548840"
+  },
+  "548900": {
+    "Name": "Alone in the Dark 3",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.644148307+02:00",
+    "LastUpdatedSteamDB": "2019-09-17T11:57:45+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644148307+02:00",
+    "AppID": "548900"
   },
   "550": {
     "Name": "Left 4 Dead 2",
@@ -48235,7 +48955,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-04T20:15:35.459961295+02:00",
-    "LastUpdatedSteamDB": "2022-04-12T13:02:02+02:00",
+    "LastUpdatedSteamDB": "2022-09-12T11:34:54+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.459961295+02:00",
     "AppID": "550470"
   },
@@ -48883,7 +49603,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-21T16:39:54.208122316+02:00",
-    "LastUpdatedSteamDB": "2022-07-12T09:19:27+02:00",
+    "LastUpdatedSteamDB": "2022-09-13T08:01:53+02:00",
     "LastUpdatedHere": "2022-05-21T16:39:54.208122316+02:00",
     "AppID": "565720"
   },
@@ -49004,6 +49724,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.458818957+02:00",
     "AppID": "568770"
   },
+  "569530": {
+    "Name": "Sky Noon",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.644005409+02:00",
+    "LastUpdatedSteamDB": "2018-12-22T04:56:39+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644005409+02:00",
+    "AppID": "569530"
+  },
   "569810": {
     "Name": "LEAVES - The Return",
     "Status": "Playable",
@@ -49048,6 +49777,15 @@
     "LastUpdatedSteamDB": "2017-01-27T02:49:12+01:00",
     "LastUpdatedHere": "2022-07-19T16:20:32.266098192+02:00",
     "AppID": "570680"
+  },
+  "570770": {
+    "Name": "古剑奇谭二(GuJian2)",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.64409362+02:00",
+    "LastUpdatedSteamDB": "2021-02-08T01:58:51+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.64409362+02:00",
+    "AppID": "570770"
   },
   "570780": {
     "Name": "古剑奇谭(GuJian)",
@@ -49958,6 +50696,15 @@
     "LastUpdatedHere": "2022-06-24T12:33:00.988025174+02:00",
     "AppID": "589780"
   },
+  "589940": {
+    "Name": "Eye of the Temple",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644985926+02:00",
+    "LastUpdatedSteamDB": "2021-12-22T00:14:27+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644985926+02:00",
+    "AppID": "589940"
+  },
   "590380": {
     "Name": "Into the Breach",
     "Status": "Verified",
@@ -50449,7 +51196,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-21T16:39:54.208537729+02:00",
-    "LastUpdatedSteamDB": "2022-09-06T15:36:44+02:00",
+    "LastUpdatedSteamDB": "2022-09-12T16:30:12+02:00",
     "LastUpdatedHere": "2022-05-21T16:39:54.208537729+02:00",
     "AppID": "602960"
   },
@@ -50629,7 +51376,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.458473168+02:00",
-    "LastUpdatedSteamDB": "2021-06-30T12:26:54+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T11:49:51+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.458473168+02:00",
     "AppID": "606880"
   },
@@ -50938,6 +51685,15 @@
     "LastUpdatedSteamDB": "2022-03-10T12:16:44+01:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.456678365+02:00",
     "AppID": "613830"
+  },
+  "613900": {
+    "Name": "Museum of Other Realities",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644534814+02:00",
+    "LastUpdatedSteamDB": "2021-06-07T20:17:54+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644534814+02:00",
+    "AppID": "613900"
   },
   "614570": {
     "Name": "Dishonored®: Death of the Outsider™",
@@ -51308,6 +52064,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.456414013+02:00",
     "AppID": "624270"
   },
+  "624710": {
+    "Name": "Cow Milking Simulator",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644635038+02:00",
+    "LastUpdatedSteamDB": "2019-12-02T23:17:43+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644635038+02:00",
+    "AppID": "624710"
+  },
   "625340": {
     "Name": "XERA: Survival",
     "Status": "Unsupported",
@@ -51376,7 +52141,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.451789346+02:00",
-    "LastUpdatedSteamDB": "2022-09-08T20:02:00+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T01:19:21+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.451789346+02:00",
     "AppID": "627690"
   },
@@ -52010,6 +52775,15 @@
     "LastUpdatedHere": "2022-06-24T12:33:00.989078394+02:00",
     "AppID": "643900"
   },
+  "644200": {
+    "Name": "Starlight of Aeons",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644685045+02:00",
+    "LastUpdatedSteamDB": "2019-06-14T18:31:02+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644685045+02:00",
+    "AppID": "644200"
+  },
   "644390": {
     "Name": "D\u0026D Lords of Waterdeep",
     "Status": "Verified",
@@ -52051,7 +52825,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.451924421+02:00",
-    "LastUpdatedSteamDB": "2020-08-14T00:05:31+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T11:45:15+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.451924421+02:00",
     "AppID": "644830"
   },
@@ -52703,6 +53477,15 @@
     "LastUpdatedHere": "2022-07-13T10:18:15.790989509+02:00",
     "AppID": "665370"
   },
+  "666100": {
+    "Name": "Shooty Fruity",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.645007507+02:00",
+    "LastUpdatedSteamDB": "2019-09-05T13:53:12+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.645007507+02:00",
+    "AppID": "666100"
+  },
   "666140": {
     "Name": "My Time At Portia",
     "Status": "Playable",
@@ -53207,6 +53990,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.454125565+02:00",
     "AppID": "679110"
   },
+  "679750": {
+    "Name": "Catch \u0026 Release",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.645030416+02:00",
+    "LastUpdatedSteamDB": "2020-04-29T19:52:38+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.645030416+02:00",
+    "AppID": "679750"
+  },
   "6800": {
     "Name": "Commandos: Behind Enemy Lines",
     "Status": "Unsupported",
@@ -53446,7 +54238,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-06-24T12:33:00.988112709+02:00",
-    "LastUpdatedSteamDB": "2022-06-24T16:12:33+02:00",
+    "LastUpdatedSteamDB": "2022-09-12T20:17:03+02:00",
     "LastUpdatedHere": "2022-06-24T12:33:00.988112709+02:00",
     "AppID": "689900"
   },
@@ -53494,6 +54286,15 @@
     "LastUpdatedSteamDB": "2021-03-08T17:31:35+01:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.453100073+02:00",
     "AppID": "690790"
+  },
+  "690810": {
+    "Name": "Killing Floor: Incursion",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.64517918+02:00",
+    "LastUpdatedSteamDB": "2019-09-12T21:51:46+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.64517918+02:00",
+    "AppID": "690810"
   },
   "690830": {
     "Name": "Foundation",
@@ -53548,6 +54349,15 @@
     "LastUpdatedSteamDB": "2019-12-11T01:42:17+01:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.455855974+02:00",
     "AppID": "6920"
+  },
+  "692690": {
+    "Name": "Dance Collider",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644679039+02:00",
+    "LastUpdatedSteamDB": "2020-03-04T04:19:09+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644679039+02:00",
+    "AppID": "692690"
   },
   "692840": {
     "Name": "Underworld Ascendant",
@@ -54202,7 +55012,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.452633109+02:00",
-    "LastUpdatedSteamDB": "2022-08-31T17:31:17+02:00",
+    "LastUpdatedSteamDB": "2022-09-12T20:34:32+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.452633109+02:00",
     "AppID": "71340"
   },
@@ -54877,7 +55687,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-04T20:15:35.462567943+02:00",
-    "LastUpdatedSteamDB": "2022-01-31T12:01:58+01:00",
+    "LastUpdatedSteamDB": "2022-09-14T12:04:43+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.462567943+02:00",
     "AppID": "736220"
   },
@@ -54916,6 +55726,15 @@
     "LastUpdatedSteamDB": "2018-08-30T11:15:03+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.454972192+02:00",
     "AppID": "737800"
+  },
+  "737870": {
+    "Name": "Conduct DELUXE!",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.6437435+02:00",
+    "LastUpdatedSteamDB": "2018-04-19T22:26:08+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.6437435+02:00",
+    "AppID": "737870"
   },
   "737890": {
     "Name": "Catastronauts",
@@ -54965,9 +55784,9 @@
   "739630": {
     "Name": "Phasmophobia",
     "Status": "Verified",
-    "PreviousStatus": "Unsupported",
+    "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.460455917+02:00",
-    "LastUpdatedSteamDB": "2020-06-19T22:47:51+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T17:09:15+02:00",
     "LastUpdatedHere": "2022-06-24T12:33:00.988310814+02:00",
     "AppID": "739630"
   },
@@ -55354,7 +56173,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-04T20:15:35.463041054+02:00",
-    "LastUpdatedSteamDB": "2022-04-27T23:50:51+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T16:44:26+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.463041054+02:00",
     "AppID": "751630"
   },
@@ -55394,12 +56213,21 @@
     "LastUpdatedHere": "2022-07-13T10:18:15.791834663+02:00",
     "AppID": "752470"
   },
+  "752480": {
+    "Name": "Sniper Elite VR",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.645285689+02:00",
+    "LastUpdatedSteamDB": "2021-09-06T17:01:41+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.645285689+02:00",
+    "AppID": "752480"
+  },
   "752590": {
     "Name": "A Plague Tale: Innocence",
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.451051464+02:00",
-    "LastUpdatedSteamDB": "2022-06-23T16:18:11+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T12:25:32+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.451051464+02:00",
     "AppID": "752590"
   },
@@ -55426,7 +56254,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.453718246+02:00",
-    "LastUpdatedSteamDB": "2021-10-01T01:09:51+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T14:25:45+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.453718246+02:00",
     "AppID": "753590"
   },
@@ -55781,6 +56609,15 @@
     "LastUpdatedHere": "2022-05-28T18:44:48.682492085+02:00",
     "AppID": "763890"
   },
+  "764030": {
+    "Name": "Realm Revolutions",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644761243+02:00",
+    "LastUpdatedSteamDB": "2018-06-15T23:35:44+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644761243+02:00",
+    "AppID": "764030"
+  },
   "764050": {
     "Name": "Maelstrom",
     "Status": "Unsupported",
@@ -55822,7 +56659,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.454651756+02:00",
-    "LastUpdatedSteamDB": "2021-03-02T03:29:55+01:00",
+    "LastUpdatedSteamDB": "2022-09-16T01:43:35+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.454651756+02:00",
     "AppID": "765410"
   },
@@ -56713,7 +57550,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-04T20:15:35.461188351+02:00",
-    "LastUpdatedSteamDB": "2021-09-29T23:17:42+02:00",
+    "LastUpdatedSteamDB": "2022-09-12T15:35:09+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.461188351+02:00",
     "AppID": "798490"
   },
@@ -57433,7 +58270,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-04T20:15:35.460577582+02:00",
-    "LastUpdatedSteamDB": "2022-05-30T22:59:24+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T02:10:28+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.460577582+02:00",
     "AppID": "824270"
   },
@@ -58094,6 +58931,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.462058864+02:00",
     "AppID": "846470"
   },
+  "846690": {
+    "Name": "Lost Lands: Ice Spell",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644602561+02:00",
+    "LastUpdatedSteamDB": "2022-04-05T08:32:51+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644602561+02:00",
+    "AppID": "846690"
+  },
   "846770": {
     "Name": "DYSMANTLE",
     "Status": "Verified",
@@ -58198,7 +59044,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-04T20:15:35.459813998+02:00",
-    "LastUpdatedSteamDB": "2022-09-09T12:48:48+02:00",
+    "LastUpdatedSteamDB": "2022-09-13T13:57:10+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.459813998+02:00",
     "AppID": "8500"
   },
@@ -58382,6 +59228,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.460600071+02:00",
     "AppID": "858260"
   },
+  "858360": {
+    "Name": "The Initiate 2: The First Interviews",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-09-16T12:45:49.643998704+02:00",
+    "LastUpdatedSteamDB": "2018-05-24T18:24:48+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.643998704+02:00",
+    "AppID": "858360"
+  },
   "858680": {
     "Name": "Black Paradox",
     "Status": "Playable",
@@ -58477,7 +59332,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.452494961+02:00",
-    "LastUpdatedSteamDB": "2020-07-25T00:54:20+02:00",
+    "LastUpdatedSteamDB": "2022-09-13T01:08:19+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.452494961+02:00",
     "AppID": "860950"
   },
@@ -58940,6 +59795,15 @@
     "LastUpdatedHere": "2022-05-11T17:19:17.836671197+02:00",
     "AppID": "877800"
   },
+  "877850": {
+    "Name": "TribeXR DJ School",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.645226603+02:00",
+    "LastUpdatedSteamDB": "2021-04-28T23:16:31+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.645226603+02:00",
+    "AppID": "877850"
+  },
   "878320": {
     "Name": "SIMULACRA: Pipe Dreams",
     "Status": "Verified",
@@ -59275,11 +60139,11 @@
   },
   "8870": {
     "Name": "BioShock Infinite",
-    "Status": "Unsupported",
+    "Status": "Playable",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-07-13T10:18:15.792640222+02:00",
     "LastUpdatedSteamDB": "2019-09-17T18:59:01+02:00",
-    "LastUpdatedHere": "2022-07-13T10:18:15.792640222+02:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644222409+02:00",
     "AppID": "8870"
   },
   "887450": {
@@ -59521,7 +60385,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.453056282+02:00",
-    "LastUpdatedSteamDB": "2022-07-14T17:40:16+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T14:00:53+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.453056282+02:00",
     "AppID": "893680"
   },
@@ -60313,7 +61177,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.462410519+02:00",
-    "LastUpdatedSteamDB": "2022-08-04T16:03:39+02:00",
+    "LastUpdatedSteamDB": "2022-09-12T10:40:29+02:00",
     "LastUpdatedHere": "2022-06-24T12:33:00.988881342+02:00",
     "AppID": "917720"
   },
@@ -62068,7 +62932,7 @@
     "Status": "Playable",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-08-06T18:47:45.781312436+02:00",
-    "LastUpdatedSteamDB": "2022-08-31T17:09:57+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T10:48:32+02:00",
     "LastUpdatedHere": "2022-08-06T18:47:45.781312436+02:00",
     "AppID": "968250"
   },
@@ -62107,6 +62971,15 @@
     "LastUpdatedSteamDB": "2020-10-20T08:12:29+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.454609921+02:00",
     "AppID": "969990"
+  },
+  "970500": {
+    "Name": "秦殇 (Prince of Qin)",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-09-16T12:45:49.644753211+02:00",
+    "LastUpdatedSteamDB": "2021-12-28T08:56:49+01:00",
+    "LastUpdatedHere": "2022-09-16T12:45:49.644753211+02:00",
+    "AppID": "970500"
   },
   "970560": {
     "Name": "STEINS;GATE: My Darling's Embrace",
@@ -62554,7 +63427,7 @@
     "Status": "Unsupported",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-04T20:15:35.462298143+02:00",
-    "LastUpdatedSteamDB": "2022-07-19T20:10:37+02:00",
+    "LastUpdatedSteamDB": "2022-09-14T18:52:01+02:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.462298143+02:00",
     "AppID": "982290"
   },
@@ -62887,7 +63760,7 @@
     "Status": "Verified",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.461323007+02:00",
-    "LastUpdatedSteamDB": "2022-08-04T10:10:23+02:00",
+    "LastUpdatedSteamDB": "2022-09-15T04:17:05+02:00",
     "LastUpdatedHere": "2022-06-24T12:33:00.988257753+02:00",
     "AppID": "992730"
   },
