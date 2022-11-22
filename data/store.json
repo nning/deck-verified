@@ -7876,11 +7876,11 @@
   },
   "1163550": {
     "Name": "Captain Tsubasa: Rise of New Champions",
-    "Status": "Verified",
+    "Status": "Unsupported",
     "PreviousStatus": "Verified",
     "FirstSeen": "2022-05-04T20:15:35.454456268+02:00",
     "LastUpdatedSteamDB": "2020-08-03T10:09:14+02:00",
-    "LastUpdatedHere": "2022-05-04T20:15:35.454456268+02:00",
+    "LastUpdatedHere": "2022-11-22T12:17:34.765272565+01:00",
     "AppID": "1163550"
   },
   "1163560": {
@@ -15604,6 +15604,15 @@
     "LastUpdatedSteamDB": "2020-11-19T17:45:19+01:00",
     "LastUpdatedHere": "2022-08-08T22:28:44.378499551+02:00",
     "AppID": "1336120"
+  },
+  "1336490": {
+    "Name": "Against the Storm",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-11-22T12:17:34.764797422+01:00",
+    "LastUpdatedSteamDB": "2022-11-22T08:43:39+01:00",
+    "LastUpdatedHere": "2022-11-22T12:17:34.764797422+01:00",
+    "AppID": "1336490"
   },
   "1336600": {
     "Name": "Cabin Fever",
@@ -44551,11 +44560,11 @@
   },
   "323850": {
     "Name": "Move or Die",
-    "Status": "Playable",
+    "Status": "Verified",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.456330621+02:00",
     "LastUpdatedSteamDB": "2022-08-22T15:43:30+02:00",
-    "LastUpdatedHere": "2022-05-04T20:15:35.456330621+02:00",
+    "LastUpdatedHere": "2022-11-22T12:17:34.764311732+01:00",
     "AppID": "323850"
   },
   "32390": {
@@ -47329,6 +47338,15 @@
     "LastUpdatedSteamDB": "2022-11-02T12:38:45+01:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.462517936+02:00",
     "AppID": "359320"
+  },
+  "359350": {
+    "Name": "Defunct",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-11-22T12:17:34.76416122+01:00",
+    "LastUpdatedSteamDB": "2019-10-29T08:48:53+01:00",
+    "LastUpdatedHere": "2022-11-22T12:17:34.76416122+01:00",
+    "AppID": "359350"
   },
   "359390": {
     "Name": "Amnesia™: Memories",
