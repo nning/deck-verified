@@ -11024,6 +11024,15 @@
     "LastUpdatedHere": "2022-06-24T12:33:00.988129241+02:00",
     "AppID": "1229060"
   },
+  "1229240": {
+    "Name": "Chained Echoes",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-12-13T09:20:22.791128618+01:00",
+    "LastUpdatedSteamDB": "2022-12-08T13:51:39+01:00",
+    "LastUpdatedHere": "2022-12-13T09:20:22.791128618+01:00",
+    "AppID": "1229240"
+  },
   "1229260": {
     "Name": "Monster Girls and the Mysterious Adventure",
     "Status": "Playable",
@@ -15409,11 +15418,11 @@
   },
   "1324530": {
     "Name": "Warhammer 40,000: Shootas, Blood \u0026 Teef",
-    "Status": "Playable",
+    "Status": "Verified",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-11-15T09:58:54.414580243+01:00",
     "LastUpdatedSteamDB": "2022-10-20T13:39:51+02:00",
-    "LastUpdatedHere": "2022-11-15T09:58:54.414580243+01:00",
+    "LastUpdatedHere": "2022-12-13T09:20:22.790965323+01:00",
     "AppID": "1324530"
   },
   "1324780": {
@@ -24778,11 +24787,11 @@
   },
   "1606340": {
     "Name": "Conquest of Elysium 5",
-    "Status": "Unsupported",
+    "Status": "Playable",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-04T20:15:35.462266015+02:00",
     "LastUpdatedSteamDB": "2021-08-03T18:22:32+02:00",
-    "LastUpdatedHere": "2022-05-04T20:15:35.462266015+02:00",
+    "LastUpdatedHere": "2022-12-13T09:20:22.791665011+01:00",
     "AppID": "1606340"
   },
   "1607130": {
@@ -29123,6 +29132,15 @@
     "LastUpdatedHere": "2022-07-13T10:18:15.789299592+02:00",
     "AppID": "1766550"
   },
+  "1766740": {
+    "Name": "Choo-Choo Charles",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-12-13T09:20:22.79091633+01:00",
+    "LastUpdatedSteamDB": "2022-12-09T15:34:50+01:00",
+    "LastUpdatedHere": "2022-12-13T09:20:22.79091633+01:00",
+    "AppID": "1766740"
+  },
   "1766790": {
     "Name": "100 hidden birds 2",
     "Status": "Verified",
@@ -33154,6 +33172,15 @@
     "LastUpdatedSteamDB": "2022-05-19T19:29:53+02:00",
     "LastUpdatedHere": "2022-11-22T08:41:14.962052334+01:00",
     "AppID": "1933980"
+  },
+  "1938090": {
+    "Name": "Call of Duty®: Modern Warfare® II",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-12-13T09:20:22.792203054+01:00",
+    "LastUpdatedSteamDB": "2022-12-10T21:26:52+01:00",
+    "LastUpdatedHere": "2022-12-13T09:20:22.792203054+01:00",
+    "AppID": "1938090"
   },
   "1939160": {
     "Name": "Shadows Over Loathing",
@@ -41084,6 +41111,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.460640021+02:00",
     "AppID": "2630"
   },
+  "263020": {
+    "Name": "STARWHAL",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-12-13T09:20:22.790982726+01:00",
+    "LastUpdatedSteamDB": "2020-12-29T22:36:43+01:00",
+    "LastUpdatedHere": "2022-12-13T09:20:22.790982726+01:00",
+    "AppID": "263020"
+  },
   "263060": {
     "Name": "Blockstorm",
     "Status": "Playable",
@@ -48608,6 +48644,15 @@
     "LastUpdatedHere": "2022-12-05T08:47:36.675924293+01:00",
     "AppID": "357300"
   },
+  "357310": {
+    "Name": "Oriental Empires",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-12-13T09:20:22.791687082+01:00",
+    "LastUpdatedSteamDB": "2019-08-29T16:19:12+02:00",
+    "LastUpdatedHere": "2022-12-13T09:20:22.791687082+01:00",
+    "AppID": "357310"
+  },
   "357340": {
     "Name": "Cobalt",
     "Status": "Verified",
@@ -53837,6 +53882,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.451892433+02:00",
     "AppID": "427730"
   },
+  "427820": {
+    "Name": "Hitman GO: Definitive Edition",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-12-13T09:20:22.790715933+01:00",
+    "LastUpdatedSteamDB": "2019-12-11T20:58:27+01:00",
+    "LastUpdatedHere": "2022-12-13T09:20:22.790715933+01:00",
+    "AppID": "427820"
+  },
   "427830": {
     "Name": "Hybrid Beasts",
     "Status": "Verified",
@@ -55106,6 +55160,15 @@
     "LastUpdatedHere": "2022-07-19T16:20:32.265756146+02:00",
     "AppID": "446810"
   },
+  "446840": {
+    "Name": "Splasher",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-12-13T09:20:22.790927683+01:00",
+    "LastUpdatedSteamDB": "2022-06-30T11:38:54+02:00",
+    "LastUpdatedHere": "2022-12-13T09:20:22.790927683+01:00",
+    "AppID": "446840"
+  },
   "4470": {
     "Name": "Silverfall: Earth Awakening",
     "Status": "Unsupported",
@@ -55279,11 +55342,11 @@
   },
   "449960": {
     "Name": "Book of Demons",
-    "Status": "Unsupported",
+    "Status": "Playable",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2022-05-04T20:15:35.459526737+02:00",
     "LastUpdatedSteamDB": "2022-05-04T11:02:40+02:00",
-    "LastUpdatedHere": "2022-05-04T20:15:35.459526737+02:00",
+    "LastUpdatedHere": "2022-12-13T09:20:22.791684946+01:00",
     "AppID": "449960"
   },
   "4500": {
@@ -59804,6 +59867,15 @@
     "LastUpdatedHere": "2022-06-24T12:33:00.989206867+02:00",
     "AppID": "540770"
   },
+  "540840": {
+    "Name": "Lara Croft GO",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-12-13T09:20:22.790592519+01:00",
+    "LastUpdatedSteamDB": "2020-09-25T11:01:04+02:00",
+    "LastUpdatedHere": "2022-12-13T09:20:22.790592519+01:00",
+    "AppID": "540840"
+  },
   "540880": {
     "Name": "Rose of Winter",
     "Status": "Playable",
@@ -60937,6 +61009,15 @@
     "LastUpdatedSteamDB": "2019-07-22T20:55:46+02:00",
     "LastUpdatedHere": "2022-09-20T17:02:53.737931485+02:00",
     "AppID": "564710"
+  },
+  "564750": {
+    "Name": "Dimension Jump",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-12-13T09:20:22.791952186+01:00",
+    "LastUpdatedSteamDB": "2017-02-17T02:35:21+01:00",
+    "LastUpdatedHere": "2022-12-13T09:20:22.791952186+01:00",
+    "AppID": "564750"
   },
   "565110": {
     "Name": "Mobile Astro",
@@ -63001,11 +63082,11 @@
   },
   "606800": {
     "Name": "Startup Company",
-    "Status": "Playable",
+    "Status": "Verified",
     "PreviousStatus": "Playable",
     "FirstSeen": "2022-05-04T20:15:35.457093647+02:00",
     "LastUpdatedSteamDB": "2020-04-10T18:53:49+02:00",
-    "LastUpdatedHere": "2022-05-04T20:15:35.457093647+02:00",
+    "LastUpdatedHere": "2022-12-13T09:20:22.791023777+01:00",
     "AppID": "606800"
   },
   "606880": {
@@ -63817,6 +63898,15 @@
     "LastUpdatedSteamDB": "2022-11-08T21:42:04+01:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.456414013+02:00",
     "AppID": "624270"
+  },
+  "624460": {
+    "Name": "Fantasynth One",
+    "Status": "Unsupported",
+    "PreviousStatus": "Unsupported",
+    "FirstSeen": "2022-12-13T09:20:22.791792231+01:00",
+    "LastUpdatedSteamDB": "2017-05-12T17:43:23+02:00",
+    "LastUpdatedHere": "2022-12-13T09:20:22.791792231+01:00",
+    "AppID": "624460"
   },
   "624710": {
     "Name": "Cow Milking Simulator",
