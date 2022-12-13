@@ -6,7 +6,7 @@ require (
 	github.com/cheynewallace/tabby v1.1.1
 	github.com/fxamacker/cbor v1.5.1
 	github.com/gorilla/feeds v1.1.1
-	github.com/ulikunitz/xz v0.5.10
+	github.com/ulikunitz/xz v0.5.11
 )
 
 require (
