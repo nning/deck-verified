@@ -4958,6 +4958,15 @@
     "LastUpdatedHere": "2022-08-06T18:47:45.781711264+02:00",
     "AppID": "1100410"
   },
+  "1100420": {
+    "Name": "Praetorians - HD Remaster",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-12-13T18:35:43.707360252+01:00",
+    "LastUpdatedSteamDB": "2022-08-08T12:11:40+02:00",
+    "LastUpdatedHere": "2022-12-13T18:35:43.707360252+01:00",
+    "AppID": "1100420"
+  },
   "1100600": {
     "Name": "Football Manager 2020",
     "Status": "Playable",
@@ -46979,6 +46988,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.459460527+02:00",
     "AppID": "3360"
   },
+  "33600": {
+    "Name": "Broken Sword 2 - the Smoking Mirror: Remastered",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-12-13T18:35:43.706973951+01:00",
+    "LastUpdatedSteamDB": "2022-06-23T18:03:47+02:00",
+    "LastUpdatedHere": "2022-12-13T18:35:43.706973951+01:00",
+    "AppID": "33600"
+  },
   "336130": {
     "Name": "Shardlight",
     "Status": "Verified",
@@ -56582,6 +56600,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.452511025+02:00",
     "AppID": "473950"
   },
+  "474020": {
+    "Name": "Ragnorium",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2022-12-13T18:35:43.708404169+01:00",
+    "LastUpdatedSteamDB": "2022-04-25T17:06:35+02:00",
+    "LastUpdatedHere": "2022-12-13T18:35:43.708404169+01:00",
+    "AppID": "474020"
+  },
   "47410": {
     "Name": "Stronghold Kingdoms",
     "Status": "Unsupported",
@@ -64079,6 +64106,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.455287599+02:00",
     "AppID": "628770"
   },
+  "628800": {
+    "Name": "Super Hydorah",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-12-13T18:35:43.707395549+01:00",
+    "LastUpdatedSteamDB": "2022-11-03T10:31:14+01:00",
+    "LastUpdatedHere": "2022-12-13T18:35:43.707395549+01:00",
+    "AppID": "628800"
+  },
   "628890": {
     "Name": "NOBUNAGA'S AMBITION: Taishi",
     "Status": "Unsupported",
@@ -64726,6 +64762,15 @@
     "LastUpdatedSteamDB": "2022-03-09T03:21:01+01:00",
     "LastUpdatedHere": "2022-08-16T21:09:40.730303181+02:00",
     "AppID": "643820"
+  },
+  "643880": {
+    "Name": "Strikey Sisters",
+    "Status": "Verified",
+    "PreviousStatus": "Verified",
+    "FirstSeen": "2022-12-13T18:35:43.706991254+01:00",
+    "LastUpdatedSteamDB": "2022-10-31T11:19:33+01:00",
+    "LastUpdatedHere": "2022-12-13T18:35:43.706991254+01:00",
+    "AppID": "643880"
   },
   "643900": {
     "Name": "Alvora Tactics",
