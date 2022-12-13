@@ -66,7 +66,7 @@ func cmdFeed() {
 
 func cmdFeedServe(args ...string) {
 	http.HandleFunc("/feed.xml", func(w http.ResponseWriter, r *http.Request) {
-		store = getStore(!debug)
+		store = getStore(false)
 		feed := generateFeed(-1)
 		content, err := feed.ToAtom()
 		panicOnError(err)
