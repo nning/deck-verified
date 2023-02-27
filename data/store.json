@@ -33110,6 +33110,15 @@
     "LastUpdatedHere": "2022-11-15T09:58:54.414495212+01:00",
     "AppID": "1856900"
   },
+  "1857080": {
+    "Name": "The Last Starship",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2023-02-27T17:14:39.835316998+01:00",
+    "LastUpdatedSteamDB": "2023-02-23T15:31:41+01:00",
+    "LastUpdatedHere": "2023-02-27T17:14:39.835316998+01:00",
+    "AppID": "1857080"
+  },
   "1857150": {
     "Name": "The Christmas Spirit: Golden Ticket Collector's Edition",
     "Status": "Unsupported",
@@ -39916,11 +39925,11 @@
   },
   "2250060": {
     "Name": "I commissioned some bees 0",
-    "Status": "Unsupported",
+    "Status": "Playable",
     "PreviousStatus": "Unsupported",
     "FirstSeen": "2023-02-22T10:52:03.532156349+01:00",
     "LastUpdatedSteamDB": "2023-01-12T17:15:19+01:00",
-    "LastUpdatedHere": "2023-02-22T10:52:03.532156349+01:00",
+    "LastUpdatedHere": "2023-02-27T17:14:39.834641645+01:00",
     "AppID": "2250060"
   },
   "225080": {
@@ -60229,11 +60238,11 @@
   },
   "465200": {
     "Name": "Fury Unleashed",
-    "Status": "Playable",
+    "Status": "Verified",
     "PreviousStatus": "Playable",
     "FirstSeen": "2023-02-01T23:41:03.182500146+01:00",
     "LastUpdatedSteamDB": "2022-07-29T13:46:31+02:00",
-    "LastUpdatedHere": "2023-02-01T23:41:03.182500146+01:00",
+    "LastUpdatedHere": "2023-02-27T17:14:39.834226201+01:00",
     "AppID": "465200"
   },
   "465240": {
@@ -76886,6 +76895,15 @@
     "LastUpdatedHere": "2022-05-04T20:15:35.461720479+02:00",
     "AppID": "823940"
   },
+  "823950": {
+    "Name": "Re:Legend",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2023-02-27T17:14:39.83536067+01:00",
+    "LastUpdatedSteamDB": "2022-09-09T01:55:00+02:00",
+    "LastUpdatedHere": "2023-02-27T17:14:39.83536067+01:00",
+    "AppID": "823950"
+  },
   "8240": {
     "Name": "Sam \u0026 Max 105: Reality 2.0",
     "Status": "Playable",
@@ -80350,6 +80368,15 @@
     "LastUpdatedSteamDB": "2022-02-17T09:30:14+01:00",
     "LastUpdatedHere": "2022-05-04T20:15:35.462670052+02:00",
     "AppID": "910490"
+  },
+  "910630": {
+    "Name": "Arcade Spirits",
+    "Status": "Playable",
+    "PreviousStatus": "Playable",
+    "FirstSeen": "2023-02-27T17:14:39.834980483+01:00",
+    "LastUpdatedSteamDB": "2022-11-15T10:08:03+01:00",
+    "LastUpdatedHere": "2023-02-27T17:14:39.834980483+01:00",
+    "AppID": "910630"
   },
   "910830": {
     "Name": "Rebel Galaxy Outlaw",
