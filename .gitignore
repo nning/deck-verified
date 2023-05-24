@@ -1,2 +1,5 @@
 deck-verified
 data/response*.json
+.gitsecret/keys/random_seed
+!*.secret
+data/url
