@@ -12,7 +12,7 @@ func cmdSearch(term string) {
 	entries := getEntriesFromStore(&store, lessByNameAsc)
 
 	for _, entry := range entries {
-		if strings.Contains(strings.ToLower(entry.Name), term) {
+		if strings.Contains(strings.ToLower(entry.Name), strings.ToLower(term)) {
 			t.AddLine(entry.Name, entry.Status, entry.LastUpdatedHere)
 		}
 	}
